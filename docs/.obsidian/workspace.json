@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "403a02285531f013",
+    "type": "split",
+    "children": [
+      {
+        "id": "2cf6f914b1392c5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28a9c702b9cadd8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "622311b0f603bfab",
+    "type": "split",
+    "children": [
+      {
+        "id": "aefcb9b7b6d1c4e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b9faa0c58cc3d8e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d61fed348c72bca3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "387e3c495ff2d5d0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "84b77c0606c080e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2979b91420dc2db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c150bc102f4d3dc5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CLAUDE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CLAUDE"
+            }
+          },
+          {
+            "id": "d32e4aaf91313993",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CLAUDE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CLAUDE"
+            }
+          },
+          {
+            "id": "1f4af324c2110782",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "049e92f9f747ae2f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7d58666080802ba6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CLAUDE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CLAUDE"
+            }
+          },
+          {
+            "id": "ce31b71543c48162",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "28a9c702b9cadd8a",
+  "lastOpenFiles": [
+    "requirements.md",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "adr/adr-002-qdrant-over-chromadb.md",
+    "adr/adr-001-ollama-over-lmstudio.md",
+    "adr/index.md",
+    "adr/adr-005-llamaindex-orchestration.md",
+    "adr/adr-004-skip-n8n.md",
+    "adr/adr-003-skip-mlx.md",
+    "adr/adr-002-qdrant-over-chromadb.md.tmp.1363.d8ad4143ba9a",
+    "adr",
+    "journals/2026/05-May/2026-05-27-Wednesday.md",
+    "journals/2026/05-May",
+    "journals/2026",
+    "journals",
+    "attachments",
+    "inbox"
+  ]
+}

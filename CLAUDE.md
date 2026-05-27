@@ -1,4 +1,4 @@
-# CLAUDE.md
+al# CLAUDE.md
 
 ## Audience
 
@@ -18,12 +18,58 @@
 - No feature flags, backwards-compat shims, or dead code
 - Validate only at system boundaries
 
+## File Management
+
+- **Never delete or remove files** — move to `docs/archive/` instead
+- Preserve original path as subdirectory under `docs/archive/` (e.g. `src/foo.py` → `docs/archive/src/foo.py`)
+- If asked to delete, confirm with user and archive instead
+
 ## Project
 
 - Stack: Ollama + Qdrant + LlamaIndex + FastAPI + Chainlit
 - Deployment: Docker Compose, air-gapped Windows Server
 - POC: Mac (Apple Silicon)
 - Docs live in `docs/`, Obsidian-formatted Markdown
+
+## Session Bootstrap
+
+Run at the start of every session:
+```bash
+bd prime        # load beads session rules
+bd ready        # see unblocked work
+bd list --status=in_progress  # see what was in flight
+```
+
+### Current Phase
+**Setup complete. Ready to write code.**
+
+| Done | Item |
+|------|------|
+| ✓ | Requirements doc — `docs/requirements.md` |
+| ✓ | ADRs (5) — `docs/adr/` |
+| ✓ | Beads task hierarchy — 6 epics, 12 features, 28 tasks |
+| ✗ | Code — nothing written yet |
+
+### Next Action
+Start with **Infrastructure epic** (`hal-ai-4ib`): Docker Compose stack + Ollama + Qdrant.
+First task: `hal-ai-4ib.1.2` — `Write docker-compose.yml with all services`
+
+### Beads Epic Map
+| ID | Epic | Priority | Status |
+|----|------|----------|--------|
+| hal-ai-4ib | Infrastructure Setup | P0 | open — START HERE |
+| hal-ai-zqf | Ingestion Pipeline | P0 | blocked by 4ib |
+| hal-ai-rgb | RAG Query Engine | P1 | blocked by zqf |
+| hal-ai-92k | API Layer | P1 | blocked by rgb |
+| hal-ai-2ir | Chat UI | P2 | blocked by 92k |
+| hal-ai-4st | Air-gap Deployment | P2 | blocked by 2ir |
+
+### Key Decisions (see `docs/adr/` for full ADRs)
+- Ollama over LM Studio (headless, Docker, Windows Server compatible)
+- Qdrant over ChromaDB (100K+ docs, production-grade)
+- No MLX (Mac-only, breaks dev/prod parity)
+- No n8n (overkill for v1, FastAPI covers ingestion orchestration)
+- LlamaIndex over LangChain (purpose-built for RAG)
 
 
 <!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:7510c1e2 -->
