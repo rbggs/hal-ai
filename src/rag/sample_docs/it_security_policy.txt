@@ -1,0 +1,39 @@
+IT SECURITY POLICY
+
+Version: 2.1 — Last Updated: March 2026
+
+Password Requirements
+All employee passwords must meet the following standards:
+- Minimum 12 characters
+- Must include uppercase, lowercase, numbers, and special characters
+- Passwords must be changed every 90 days
+- Previous 10 passwords cannot be reused
+- Multi-factor authentication (MFA) is mandatory for all accounts
+
+Employees must never share passwords with colleagues, including IT staff. IT will never ask for your password.
+
+Device Security
+All company-issued laptops and mobile devices must have full-disk encryption enabled. Employees must lock their screens when stepping away from their workstations (Windows + L on Windows, Command + Control + Q on Mac). Automatic screen lock activates after 5 minutes of inactivity.
+
+Personal devices may only access company resources through the approved Mobile Device Management (MDM) solution. Side-loading apps on MDM-enrolled devices is prohibited.
+
+Data Classification
+Company data is classified into four tiers:
+- Public: Marketing materials, published documentation
+- Internal: General business communications, internal wikis
+- Confidential: Customer data, financial records, HR data
+- Restricted: Intellectual property, source code, cryptographic keys
+
+Confidential and Restricted data must never be stored on personal devices or sent via personal email. Use only approved company systems for these data tiers.
+
+Remote Access
+VPN is required when accessing company resources from outside the office network. Employees must use only the company-approved VPN client. Public Wi-Fi networks must always be accessed through VPN.
+
+Incident Reporting
+Any suspected security breach, lost device, or phishing attempt must be reported immediately to security@company.com or by calling the security hotline at extension 9911. Do not attempt to investigate security incidents independently.
+
+Software Installation
+Employees may not install unauthorized software on company devices. Submit software requests through the IT helpdesk portal. Approved software is distributed through the company app catalog.
+
+Violations
+Violations of this policy may result in disciplinary action up to and including termination, and may result in legal liability. Security incidents caused by policy violations may be reported to law enforcement.

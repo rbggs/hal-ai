@@ -1,0 +1,39 @@
+NEW EMPLOYEE ONBOARDING GUIDE
+
+Welcome to the team. This guide covers your first 30 days.
+
+Week 1: Setup and Orientation
+
+Day 1
+Your manager will meet you at reception at 9:00 AM. You will receive your company laptop, access badge, and parking pass. IT will set up your accounts — expect email, Slack, Jira, and GitHub access by end of day. You will attend a 1-hour HR orientation covering benefits enrollment, payroll setup, and company policies.
+
+Benefits enrollment must be completed within 30 days of your start date. Missing this window means waiting until the next open enrollment period in November.
+
+Day 2-3
+Complete mandatory compliance training in the Learning Management System (LMS). Modules include: Code of Conduct, Data Privacy, Anti-Harassment, and IT Security. All modules must be completed within your first week. Your LMS login is your company email address.
+
+Day 4-5
+Shadow your team. Attend team standups, sprint planning if applicable, and any scheduled meetings. Do not feel pressure to contribute immediately — the goal is to listen and orient.
+
+Week 2: Ramp-Up
+
+You will be assigned a buddy — a peer who has been with the company at least one year. Schedule a 30-minute introduction with your buddy in Week 1. Your buddy is your go-to for informal questions and team culture.
+
+In Week 2, you will receive your first task or project assignment. This is intentionally scoped to be achievable within 2 weeks. It is designed to help you learn the codebase, tools, and team workflow — not to measure your output.
+
+Week 3-4: Contributing
+
+By Week 3 you should be submitting pull requests and participating actively in team discussions. Schedule a 30-day check-in with your manager to discuss: how onboarding is going, any gaps in access or tooling, initial feedback on your ramp, and questions about your role and goals.
+
+Key Contacts
+- IT Helpdesk: helpdesk@company.com / ext 4100
+- HR: hr@company.com / ext 4200
+- Payroll: payroll@company.com / ext 4300
+- Security: security@company.com / ext 9911
+- Facilities (badge, parking): facilities@company.com / ext 4400
+
+Payroll
+Payroll runs bi-weekly on Fridays. Direct deposit setup must be completed in the HR portal within your first week to receive your first paycheck on time. Paper checks are issued if direct deposit is not configured — allow 5 extra business days for delivery.
+
+Equipment Issues
+Report any hardware or software issues to the IT helpdesk within 24 hours of discovery. For critical issues blocking your work, call ext 4100 directly rather than submitting a ticket.
