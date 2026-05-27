@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "hal_ai",
+  "project_id": "07578bf1-ef7e-4665-8162-b3147574c903"
+}
