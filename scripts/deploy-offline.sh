@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Install HAL-AI stack from docs/src/ on an air-gapped Mac or Linux machine.
 # Run AFTER transferring docs/src/ to this machine.
+# Requires: Podman installed and machine running (Mac), or Podman installed (Linux)
 
 set -euo pipefail
 
@@ -36,18 +37,18 @@ install_ollama_mac() {
 }
 
 install_ollama_linux() {
-    die "Linux native install not automated. Use the Docker image instead (load_docker_images handles it)."
+    die "Linux native install not automated. Restore Ollama models and run 'ollama serve' manually."
 }
 
-load_docker_images() {
-    log "Loading Docker images..."
+load_container_images() {
+    log "Loading container images via Podman..."
     for tar in "$BUNDLE_DIR/docker-images/"*.tar.gz; do
         [[ -f "$tar" ]] || continue
         log "Loading: $(basename "$tar")"
-        docker load < "$tar"
+        podman load < "$tar"
     done
-    log "Docker images loaded."
-    docker images
+    log "Images loaded."
+    podman images
 }
 
 restore_ollama_models() {
@@ -71,11 +72,11 @@ main() {
         *) die "Unsupported platform: $PLATFORM" ;;
     esac
 
-    load_docker_images
+    load_container_images
     restore_ollama_models
 
     log "Offline deployment complete."
-    log "Next: cd project root && docker compose up -d"
+    log "Next: cd project root && podman compose up -d"
 }
 
 main "$@"

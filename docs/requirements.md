@@ -49,7 +49,7 @@ Fully air-gapped RAG chatbot. No external API calls in production. POC on Mac, d
 | Orchestration | LlamaIndex | Clean RAG abstractions |
 | Backend | FastAPI | Async, OpenAPI spec auto-generated |
 | UI | Chainlit | Chat UI, minimal setup |
-| Packaging | Docker Compose | Single-stack deployment |
+| Packaging | Podman + podman-compose | Daemonless, rootless, single-stack deployment |
 
 ## Out of Scope
 

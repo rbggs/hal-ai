@@ -39,7 +39,7 @@ This gives: beads for *why*, git for *what*, log for human audit trail.
 ## Project
 
 - Stack: Ollama + Qdrant + LlamaIndex + FastAPI + Chainlit
-- Deployment: Docker Compose, air-gapped Windows Server
+- Deployment: Podman + podman-compose, air-gapped Windows Server
 - POC: Mac (Apple Silicon)
 - Docs live in `docs/`, Obsidian-formatted Markdown
 
@@ -85,6 +85,7 @@ bd list --status=in_progress  # see what was in flight
 ### Key Decisions (see `docs/adr/` for full ADRs)
 - Ollama over LM Studio (headless, Docker, Windows Server compatible)
 - **gemma4:latest** over llama3.2:3b — better instruction following, stronger RAG quality
+- **Podman over Docker** — daemonless, rootless by default, no daemon process required
 - Qdrant over ChromaDB (100K+ docs, production-grade)
 - No MLX (Mac-only, breaks dev/prod parity)
 - No n8n (overkill for v1, FastAPI covers ingestion orchestration)

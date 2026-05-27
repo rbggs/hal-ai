@@ -8,12 +8,11 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BUNDLE_DIR="$SCRIPT_DIR/../docs/src"
 
 OLLAMA_MODELS=(
-    "llama3.2:3b"
+    "gemma4:latest"
     "nomic-embed-text:latest"
 )
 
-DOCKER_IMAGES=(
-    "ollama/ollama:latest"
+CONTAINER_IMAGES=(
     "qdrant/qdrant:latest"
 )
 
@@ -22,10 +21,13 @@ die() { echo "ERROR: $*" >&2; exit 1; }
 
 check_deps() {
     local missing=()
-    for cmd in curl docker ollama; do
+    for cmd in curl podman ollama; do
         command -v "$cmd" &>/dev/null || missing+=("$cmd")
     done
     [[ ${#missing[@]} -eq 0 ]] || die "Missing: ${missing[*]}"
+    podman machine inspect &>/dev/null || die "Podman machine not initialized. Run: podman machine init"
+    podman machine inspect --format '{{.State}}' 2>/dev/null | grep -q running || \
+        die "Podman machine not running. Run: podman machine start"
 }
 
 download_installers() {
@@ -54,19 +56,15 @@ pull_and_bundle_models() {
         ollama pull "$model"
 
         log "Bundling model: $model -> $out"
-        # Determine the model's blob paths from the manifest
         local model_name="${model%%:*}"
         local model_tag="${model##*:}"
         local manifest_path="$HOME/.ollama/models/manifests/registry.ollama.ai/library/${model_name}/${model_tag}"
 
-        if [[ ! -f "$manifest_path" ]]; then
-            die "Manifest not found: $manifest_path"
-        fi
+        [[ -f "$manifest_path" ]] || die "Manifest not found: $manifest_path"
 
-        # Extract blob digests from manifest and bundle manifest + blobs
         local blob_digests
         blob_digests=$(python3 -c "
-import json, sys
+import json
 m = json.load(open('$manifest_path'))
 digests = [m['config']['digest']] + [l['digest'] for l in m['layers']]
 print('\n'.join(d.replace(':', '/') for d in digests))
@@ -82,18 +80,18 @@ print('\n'.join(d.replace(':', '/') for d in digests))
     done
 }
 
-save_docker_images() {
+save_container_images() {
     local dir="$BUNDLE_DIR/docker-images"
-    for image in "${DOCKER_IMAGES[@]}"; do
+    for image in "${CONTAINER_IMAGES[@]}"; do
         local safe_name
         safe_name="$(echo "$image" | tr ':/' '--' | sed 's/--latest//')"
         local out="$dir/${safe_name}.tar.gz"
 
-        log "Pulling Docker image: $image"
-        docker pull "$image"
+        log "Pulling image: $image"
+        podman pull "$image"
 
         log "Saving: $image -> $out"
-        docker save "$image" | gzip > "$out"
+        podman save "$image" | gzip > "$out"
         log "Saved: $out ($(du -sh "$out" | cut -f1))"
     done
 }
@@ -101,7 +99,6 @@ save_docker_images() {
 generate_checksums() {
     log "Generating checksums..."
     local out="$BUNDLE_DIR/checksums.sha256"
-    # shasum is macOS; sha256sum is Linux — handle both
     local shabin
     shabin="$(command -v sha256sum 2>/dev/null || command -v shasum)"
     local shaflag=""
@@ -120,7 +117,7 @@ main() {
     log "Bundle dir: $BUNDLE_DIR"
     download_installers
     pull_and_bundle_models
-    save_docker_images
+    save_container_images
     generate_checksums
     log "Download complete. Transfer docs/src/ to target machine."
     log "Bundle size: $(du -sh "$BUNDLE_DIR" | cut -f1)"

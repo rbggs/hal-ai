@@ -1,12 +1,12 @@
 #Requires -RunAsAdministrator
 # Install HAL-AI stack from docs/src/ on an air-gapped Windows Server.
 # Run AFTER transferring docs/src/ to this machine.
-# Requires: Docker Desktop (or Docker Engine) pre-installed
+# Requires: Podman for Windows pre-installed (winget install RedHat.Podman)
 
 param(
     [switch]$SkipVerify,
     [switch]$SkipOllama,
-    [switch]$SkipDocker,
+    [switch]$SkipPodman,
     [switch]$SkipModels
 )
 
@@ -59,15 +59,19 @@ function Install-Ollama {
     Log "Ollama installed. Service starts automatically."
 }
 
-function Load-DockerImages {
-    Log "Loading Docker images..."
+function Load-ContainerImages {
+    Log "Loading container images via Podman..."
     $tarFiles = Get-ChildItem -Path (Join-Path $BundleDir "docker-images") -Filter "*.tar.gz"
     foreach ($tar in $tarFiles) {
         Log "Loading: $($tar.Name)"
-        Get-Content $tar.FullName -Raw -Encoding Byte | docker load
+        # Requires tar (Windows 10 1803+) and Podman in PATH
+        $tmp = [System.IO.Path]::GetTempFileName() + ".tar"
+        & tar -xzf $tar.FullName -O > $tmp
+        podman load --input $tmp
+        Remove-Item $tmp -Force
     }
-    Log "Docker images loaded."
-    docker images
+    Log "Images loaded."
+    podman images
 }
 
 function Restore-OllamaModels {
@@ -78,7 +82,6 @@ function Restore-OllamaModels {
     $tarFiles = Get-ChildItem -Path (Join-Path $BundleDir "ollama-models") -Filter "*.tar.gz"
     foreach ($tar in $tarFiles) {
         Log "Restoring: $($tar.Name)"
-        # Requires tar (available in Windows 10 1803+)
         tar -xzf $tar.FullName -C $ollamaHome
     }
     Log "Models restored."
@@ -87,8 +90,8 @@ function Restore-OllamaModels {
 
 if (-not $SkipVerify) { Verify-Bundle }
 if (-not $SkipOllama) { Install-Ollama }
-if (-not $SkipDocker) { Load-DockerImages }
+if (-not $SkipPodman) { Load-ContainerImages }
 if (-not $SkipModels) { Restore-OllamaModels }
 
 Log "Offline deployment complete."
-Log "Next: cd project root && docker compose up -d"
+Log "Next: cd project root && podman compose up -d"
