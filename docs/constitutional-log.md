@@ -17,3 +17,4 @@ Format: `date | file | change | beads issue | git commit`
 | 2026-05-27 | CLAUDE.md | Added File Management rule: no deletes, archive to docs/archive/ | — | 1ddc385 |
 | 2026-05-27 | CLAUDE.md | Added Session Bootstrap: phase status, beads epic map, key decisions | — | 1ddc385 |
 | 2026-05-27 | CLAUDE.md | Added Constitutional Change Protocol: bd + git + log workflow | — | pending |
+| 2026-05-27 | CLAUDE.md | Updated Current Phase, Next Action, Epic Map — Ollama + Chainlit spike done; gemma4 model decision added | hal-ai-wjy | pending |

@@ -43,7 +43,7 @@ Fully air-gapped RAG chatbot. No external API calls in production. POC on Mac, d
 | Component | Choice | Rationale |
 |-----------|--------|-----------|
 | LLM runtime | Ollama | Headless daemon, OpenAI-compatible API, Docker-ready |
-| LLM model | Llama 3.2 / Mistral 7B | Balance of quality vs. hardware |
+| LLM model | gemma4:latest | Better instruction following, RAG quality; 9.6 GB |
 | Embeddings | nomic-embed-text (Ollama) | Local, high quality, 768-dim |
 | Vector DB | Qdrant | Production-grade, handles 100K+ docs, Docker |
 | Orchestration | LlamaIndex | Clean RAG abstractions |

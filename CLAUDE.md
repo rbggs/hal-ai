@@ -53,31 +53,38 @@ bd list --status=in_progress  # see what was in flight
 ```
 
 ### Current Phase
-**Setup complete. Ready to write code.**
+**In progress — Infrastructure + UI spike done. RAG pipeline next.**
 
 | Done | Item |
 |------|------|
 | ✓ | Requirements doc — `docs/requirements.md` |
 | ✓ | ADRs (5) — `docs/adr/` |
 | ✓ | Beads task hierarchy — 6 epics, 12 features, 28 tasks |
-| ✗ | Code — nothing written yet |
+| ✓ | Ollama installed — `gemma4:latest` + `nomic-embed-text:latest` |
+| ✓ | Air-gap bundle — `docs/src/` + `scripts/download.sh`, `deploy-offline.sh`, `deploy-offline.ps1` |
+| ✓ | Chainlit UI spike — `src/ui/app.py` (direct Ollama, no RAG yet) |
+| ✗ | Docker Compose — not written |
+| ✗ | Qdrant — not running |
+| ✗ | Ingestion pipeline — not written |
+| ✗ | RAG query engine — not written |
+| ✗ | FastAPI `/chat` — not written |
 
 ### Next Action
-Start with **Infrastructure epic** (`hal-ai-4ib`): Docker Compose stack + Ollama + Qdrant.
-First task: `hal-ai-4ib.1.2` — `Write docker-compose.yml with all services`
+`hal-ai-4ib.1.2` — `Write docker-compose.yml with all services` (Ollama + Qdrant + FastAPI + Chainlit)
 
 ### Beads Epic Map
 | ID | Epic | Priority | Status |
 |----|------|----------|--------|
-| hal-ai-4ib | Infrastructure Setup | P0 | open — START HERE |
+| hal-ai-4ib | Infrastructure Setup | P0 | in progress — models done, Docker Compose pending |
 | hal-ai-zqf | Ingestion Pipeline | P0 | blocked by 4ib |
 | hal-ai-rgb | RAG Query Engine | P1 | blocked by zqf |
 | hal-ai-92k | API Layer | P1 | blocked by rgb |
-| hal-ai-2ir | Chat UI | P2 | blocked by 92k |
-| hal-ai-4st | Air-gap Deployment | P2 | blocked by 2ir |
+| hal-ai-2ir | Chat UI | P2 | spike done (`src/ui/`), full impl blocked by 92k |
+| hal-ai-4st | Air-gap Deployment | P2 | scripts done, bundle pending model tar |
 
 ### Key Decisions (see `docs/adr/` for full ADRs)
 - Ollama over LM Studio (headless, Docker, Windows Server compatible)
+- **gemma4:latest** over llama3.2:3b — better instruction following, stronger RAG quality
 - Qdrant over ChromaDB (100K+ docs, production-grade)
 - No MLX (Mac-only, breaks dev/prod parity)
 - No n8n (overkill for v1, FastAPI covers ingestion orchestration)

@@ -1,0 +1,8 @@
+# Ignore all binary artifacts — tracked by scripts, transferred out-of-band
+installers/*.dmg
+installers/*.exe
+docker-images/*.tar
+docker-images/*.tar.gz
+ollama-models/*.tar
+ollama-models/*.tar.gz
+checksums.sha256
