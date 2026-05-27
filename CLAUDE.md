@@ -24,6 +24,18 @@ al# CLAUDE.md
 - Preserve original path as subdirectory under `docs/archive/` (e.g. `src/foo.py` → `docs/archive/src/foo.py`)
 - If asked to delete, confirm with user and archive instead
 
+## Constitutional Change Protocol
+
+Applies to: `CLAUDE.md`, `docs/AGENTS.md`, any `agents/*.md`
+
+Before editing any of these files:
+1. `bd create` an issue with the rationale (type=task, title="Constitutional: <what>")
+2. Make the edit
+3. Append an entry to `docs/constitutional-log.md`
+4. `git commit` the changed file with the beads issue ID in the message
+
+This gives: beads for *why*, git for *what*, log for human audit trail.
+
 ## Project
 
 - Stack: Ollama + Qdrant + LlamaIndex + FastAPI + Chainlit
