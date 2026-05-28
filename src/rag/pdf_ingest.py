@@ -128,6 +128,22 @@ def _is_valid_heading(text: str) -> bool:
     )
 
 
+def _extract_doc_title(pdf_path: Path) -> str:
+    """Return the largest-font heading from the first page as the document title."""
+    with pdfplumber.open(pdf_path) as pdf:
+        words = pdf.pages[0].extract_words(extra_attrs=["size"])
+    if not words:
+        return ""
+    rows = _group_rows(words)
+    best_text, best_font = "", 0.0
+    for row in rows:
+        font = _max_font(row)
+        text = _row_text(row).strip()
+        if font > best_font and _is_valid_heading(text):
+            best_font, best_text = font, text
+    return best_text
+
+
 def _group_rows(words: list[dict]) -> list[list[dict]]:
     buckets: dict[float, list[dict]] = {}
     for w in words:
@@ -209,10 +225,20 @@ def extract_chunks(pdf_path: Path, page_figures: dict[int, list[str]]) -> list[C
 # ── embedding + upsert ────────────────────────────────────────────────────────
 
 _REPEATED_PUNCT = re.compile(r"([^\w\s])\1{2,}")   # 3+ identical non-word chars
+_NOTE_CLAUSE    = re.compile(r"\bNOTE\b[^.]*\.")    # NOTE ... sentences (generic disclaimers)
+_ICN_REF        = re.compile(r"\bICN-[A-Z0-9-]+")  # S1000D figure reference codes
 
 
 def _clean_for_embed(text: str) -> str:
-    """Remove dot-leaders and repeated punctuation that inflate token count."""
+    """Normalise text for embedding quality.
+
+    Removes:
+    - Dot-leaders and repeated punctuation (inflate token count)
+    - Generic NOTE disclaimer sentences (dilute semantic content)
+    - S1000D ICN figure reference codes (pure identifiers, no semantic value)
+    """
+    text = _NOTE_CLAUSE.sub(" ", text)
+    text = _ICN_REF.sub(" ", text)
     text = _REPEATED_PUNCT.sub(" ", text)
     return re.sub(r" {2,}", " ", text).strip()
 
@@ -222,14 +248,27 @@ def _embed(text: str) -> list[float]:
     return ollama.embeddings(model=EMBED_MODEL, prompt=clean)["embedding"]
 
 
-def upsert_chunks(client: QdrantClient, collection: str, chunks: list[Chunk]) -> int:
+def upsert_chunks(client: QdrantClient, collection: str, chunks: list[Chunk],
+                  doc_title: str = "") -> int:
     points = []
     skipped = 0
     for chunk in chunks:
         if len(chunk.text) < _MIN_CHUNK_CHARS:
             skipped += 1
             continue
-        embed_text = f"{chunk.section} {chunk.subsection} {chunk.text}"
+        # Build embed prefix from section/subsection when they're meaningful.
+        # Fall back to doc_title only when the chunk's own section is noise/placeholder
+        # (e.g. "Excluded test") — avoids polluting well-labelled chunks with a bad cover title.
+        section_ok    = _is_valid_heading(chunk.section)
+        subsection_ok = _is_valid_heading(chunk.subsection) and chunk.subsection != chunk.section
+        labels: list[str] = []
+        if section_ok:
+            labels.append(chunk.section)
+        elif doc_title:                   # section is noise → use document title as fallback
+            labels.append(doc_title)
+        if subsection_ok:
+            labels.append(chunk.subsection)
+        embed_text = " ".join(labels + [chunk.text])
         points.append(PointStruct(
             id      = str(uuid.uuid4()),
             vector  = _embed(embed_text),
@@ -254,9 +293,10 @@ def upsert_chunks(client: QdrantClient, collection: str, chunks: list[Chunk]) ->
 def ingest_pdf(client: QdrantClient, collection: str, pdf_path: Path) -> int:
     """Full pipeline: extract images → chunk text → embed → upsert. Returns chunk count."""
     print(f"[pdf] {pdf_path.name}")
+    doc_title    = _extract_doc_title(pdf_path)
     page_figures = extract_images(pdf_path)
     chunks       = extract_chunks(pdf_path, page_figures)
-    print(f"  {len(chunks)} chunks")
-    count = upsert_chunks(client, collection, chunks)
+    print(f"  {len(chunks)} chunks  (doc_title='{doc_title}')")
+    count = upsert_chunks(client, collection, chunks, doc_title=doc_title)
     print(f"  {count} points upserted")
     return count

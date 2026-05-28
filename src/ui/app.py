@@ -1,7 +1,9 @@
+import re
 import ollama
 import chainlit as cl
 from pathlib import Path
 from qdrant_client import QdrantClient
+from qdrant_client.models import Filter, FieldCondition, MatchText
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 QDRANT_URL   = "http://localhost:6333"
@@ -51,17 +53,49 @@ def generate_query_variants(question: str) -> list[str]:
         return []
 
 
+def keyword_retrieve(question: str) -> list[tuple[float, dict]]:
+    """Full-text keyword search: find chunks containing key nouns from the question.
+
+    Extracts words 4+ chars (likely nouns/terms), queries each against the
+    Qdrant full-text index. Scored at 0.5 so they appear below strong semantic
+    hits but above nothing.
+    """
+    keywords = list({w.lower() for w in re.findall(r"\b[a-zA-Z]{4,}\b", question)
+                     if w.lower() not in {"what","when","where","which","does","have",
+                                          "from","with","this","that","will","your","been",
+                                          "they","were","said","each","into","than","then"}})
+    seen_keys: set[str] = set()
+    results:   list[tuple[float, dict]] = []
+
+    for kw in keywords[:4]:   # cap at 4 keywords to avoid slow scans
+        try:
+            hits = qdrant.scroll(
+                collection_name = COLLECTION,
+                scroll_filter   = Filter(must=[FieldCondition(key="text", match=MatchText(text=kw))]),
+                limit           = 4,
+                with_payload    = True,
+            )[0]
+            for hit in hits:
+                key = f"{hit.payload.get('section','')}|{hit.payload.get('page_start','')}"
+                if key not in seen_keys:
+                    seen_keys.add(key)
+                    results.append((0.50, hit.payload))   # fixed score for keyword matches
+        except Exception:
+            pass
+    return results
+
+
 def retrieve_multi(question: str) -> tuple[list[dict], list[dict]]:
     """Return (all_chunks, top_scored_chunks).
 
-    all_chunks      — deduplicated union across all query variants, used for LLM context
-    top_scored_chunks — only the TOP_K_IMAGES highest-scoring chunks, used for image selection
+    all_chunks      — semantic + keyword results, deduplicated, used for LLM context
+    top_scored_chunks — top TOP_K_IMAGES by score, used for image selection
     """
     queries   = [question] + generate_query_variants(question)
     seen_keys: set[str] = set()
-    # List of (score, payload) to preserve relevance ranking
     scored:    list[tuple[float, dict]] = []
 
+    # Semantic retrieval across all query variants
     for q in queries:
         hits = qdrant.query_points(
             collection_name = COLLECTION,
@@ -75,7 +109,13 @@ def retrieve_multi(question: str) -> tuple[list[dict], list[dict]]:
                 seen_keys.add(key)
                 scored.append((hit.score, hit.payload))
 
-    # Sort by score descending so top hits come first
+    # Keyword retrieval — catches exact-match chunks semantic search misses
+    for score, payload in keyword_retrieve(question):
+        key = f"{payload.get('section','')}|{payload.get('page_start','')}"
+        if key not in seen_keys:
+            seen_keys.add(key)
+            scored.append((score, payload))
+
     scored.sort(key=lambda x: x[0], reverse=True)
 
     all_chunks = [payload for _, payload in scored[: TOP_K * 2]]
