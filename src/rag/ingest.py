@@ -1,3 +1,14 @@
+"""Ingest all documents in ingestions/ into Qdrant.
+
+Routing by extension:
+  .pdf  → pdf_ingest (section-based chunking, image extraction)
+  .txt  → word-based chunking (simple, no images)
+
+Run from project root:
+    python src/rag/ingest.py
+    python src/rag/ingest.py path/to/specific.pdf
+"""
+import sys
 import uuid
 from pathlib import Path
 
@@ -5,21 +16,25 @@ import ollama
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, PointStruct, VectorParams
 
-QDRANT_URL  = "http://localhost:6333"
-COLLECTION  = "hal_ai_docs"
-EMBED_MODEL = "nomic-embed-text:latest"
-VECTOR_SIZE = 768
-CHUNK_WORDS = 150
-OVERLAP     = 20
+from pdf_ingest import ingest_pdf
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+INGESTIONS   = PROJECT_ROOT / "ingestions"
+
+QDRANT_URL   = "http://localhost:6333"
+COLLECTION   = "hal_ai_docs"
+EMBED_MODEL  = "nomic-embed-text:latest"
+VECTOR_SIZE  = 768
+CHUNK_WORDS  = 150
+OVERLAP      = 20
 
 
-def embed(text: str) -> list[float]:
+def _embed(text: str) -> list[float]:
     return ollama.embeddings(model=EMBED_MODEL, prompt=text)["embedding"]
 
 
-def chunk(text: str) -> list[str]:
-    words = text.split()
-    chunks, start = [], 0
+def _chunk_words(text: str) -> list[str]:
+    words, chunks, start = text.split(), [], 0
     while start < len(words):
         end = min(start + CHUNK_WORDS, len(words))
         chunks.append(" ".join(words[start:end]))
@@ -27,41 +42,66 @@ def chunk(text: str) -> list[str]:
     return chunks
 
 
-def ingest_file(client: QdrantClient, path: Path) -> int:
-    chunks = chunk(path.read_text())
+def ingest_txt(client: QdrantClient, path: Path) -> int:
+    chunks = _chunk_words(path.read_text())
     points = [
         PointStruct(
-            id=str(uuid.uuid4()),
-            vector=embed(c),
-            payload={"source": path.name, "chunk_index": i, "text": c},
+            id      = str(uuid.uuid4()),
+            vector  = _embed(c),
+            payload = {
+                "text":       c,
+                "source":     path.name,
+                "section":    "",
+                "subsection": "",
+                "page_start": 0,
+                "page_end":   0,
+                "figures":    [],
+            },
         )
-        for i, c in enumerate(chunks)
+        for c in chunks
     ]
     client.upsert(collection_name=COLLECTION, points=points)
     return len(points)
 
 
-def main():
-    client = QdrantClient(url=QDRANT_URL)
-
-    existing = [c.name for c in client.get_collections().collections]
+def ensure_collection(client: QdrantClient) -> None:
+    existing = {c.name for c in client.get_collections().collections}
     if COLLECTION not in existing:
         client.create_collection(
             collection_name=COLLECTION,
             vectors_config=VectorParams(size=VECTOR_SIZE, distance=Distance.COSINE),
         )
         print(f"Created collection: {COLLECTION}")
-    else:
-        print(f"Collection already exists: {COLLECTION}")
 
-    docs_dir = Path(__file__).parent / "sample_docs"
+
+def main() -> None:
+    client = QdrantClient(url=QDRANT_URL)
+    ensure_collection(client)
+
+    # Single file mode: python ingest.py path/to/file.pdf
+    if len(sys.argv) == 2:
+        targets = [Path(sys.argv[1])]
+    else:
+        targets = sorted(INGESTIONS.glob("*.*"))
+
+    if not targets:
+        print(f"No files found in {INGESTIONS}")
+        return
+
     total = 0
-    for doc in sorted(docs_dir.glob("*.txt")):
-        count = ingest_file(client, doc)
-        print(f"  {doc.name}: {count} chunks ingested")
+    for path in targets:
+        if path.suffix.lower() == ".pdf":
+            count = ingest_pdf(client, COLLECTION, path)
+        elif path.suffix.lower() == ".txt":
+            print(f"[txt] {path.name}")
+            count = ingest_txt(client, path)
+            print(f"  {count} chunks upserted")
+        else:
+            print(f"[skip] {path.name}  (unsupported type)")
+            continue
         total += count
 
-    print(f"\nDone — {total} chunks total in collection '{COLLECTION}'")
+    print(f"\nDone — {total} total chunks in '{COLLECTION}'")
 
 
 if __name__ == "__main__":

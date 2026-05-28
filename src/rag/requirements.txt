@@ -1,2 +1,4 @@
 qdrant-client
 ollama
+pdfplumber
+pillow
