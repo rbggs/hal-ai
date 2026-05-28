@@ -1,4 +1,3 @@
-import re
 import ollama
 import chainlit as cl
 from pathlib import Path
@@ -9,7 +8,9 @@ QDRANT_URL   = "http://localhost:6333"
 COLLECTION   = "hal_ai_docs"
 EMBED_MODEL  = "nomic-embed-text:latest"
 LLM_MODEL    = "gemma4:latest"
-TOP_K        = 8   # raised from 4 — relevant chunks for broad questions sit at rank 5-8
+TOP_K        = 8    # retrieval breadth — broad questions need rank 5-8
+TOP_K_IMAGES = 3    # only pull figures from the top N scoring chunks
+MAX_IMAGES   = 4    # hard cap on images shown per response
 
 SYSTEM_PROMPT = """You are a precise technical assistant for Volvo truck service manuals.
 
@@ -37,12 +38,11 @@ def embed(text: str) -> list[float]:
 
 
 def generate_query_variants(question: str) -> list[str]:
-    """Use the LLM to generate 2 alternative phrasings of the question."""
     try:
         response = ollama.generate(
-            model  = LLM_MODEL,
-            prompt = QUERY_EXPANSION_PROMPT.format(question=question),
-            stream = False,
+            model   = LLM_MODEL,
+            prompt  = QUERY_EXPANSION_PROMPT.format(question=question),
+            stream  = False,
             options = {"temperature": 0.3, "num_predict": 60},
         )
         lines = [l.strip() for l in response["response"].strip().splitlines() if l.strip()]
@@ -51,11 +51,16 @@ def generate_query_variants(question: str) -> list[str]:
         return []
 
 
-def retrieve_multi(question: str) -> list[dict]:
-    """Retrieve chunks for the question + 2 LLM-generated variants, deduplicated."""
+def retrieve_multi(question: str) -> tuple[list[dict], list[dict]]:
+    """Return (all_chunks, top_scored_chunks).
+
+    all_chunks      — deduplicated union across all query variants, used for LLM context
+    top_scored_chunks — only the TOP_K_IMAGES highest-scoring chunks, used for image selection
+    """
     queries   = [question] + generate_query_variants(question)
     seen_keys: set[str] = set()
-    merged:    list[dict] = []
+    # List of (score, payload) to preserve relevance ranking
+    scored:    list[tuple[float, dict]] = []
 
     for q in queries:
         hits = qdrant.query_points(
@@ -65,14 +70,17 @@ def retrieve_multi(question: str) -> list[dict]:
             with_payload    = True,
         ).points
         for hit in hits:
-            # Dedup by section + page — same passage can match multiple query variants
             key = f"{hit.payload.get('section','')}|{hit.payload.get('page_start','')}"
             if key not in seen_keys:
                 seen_keys.add(key)
-                merged.append(hit.payload)
+                scored.append((hit.score, hit.payload))
 
-    # Cap total context at TOP_K * 2 to avoid prompt overflow
-    return merged[: TOP_K * 2]
+    # Sort by score descending so top hits come first
+    scored.sort(key=lambda x: x[0], reverse=True)
+
+    all_chunks = [payload for _, payload in scored[: TOP_K * 2]]
+    top_chunks = [payload for _, payload in scored[:TOP_K_IMAGES]]
+    return all_chunks, top_chunks
 
 
 def build_prompt(question: str, chunks: list[dict]) -> str:
@@ -83,13 +91,16 @@ def build_prompt(question: str, chunks: list[dict]) -> str:
     return f"{SYSTEM_PROMPT}\n\nContext:\n{context}\n\nQuestion: {question}\nAnswer:"
 
 
-def collect_figures(chunks: list[dict]) -> list[str]:
+def collect_figures(chunks: list[dict], max_images: int = MAX_IMAGES) -> list[str]:
+    """Return deduplicated figure paths from chunks, capped at max_images."""
     seen, paths = set(), []
     for chunk in chunks:
         for fig in chunk.get("figures", []):
             if fig not in seen:
                 seen.add(fig)
                 paths.append(fig)
+                if len(paths) >= max_images:
+                    return paths
     return paths
 
 
@@ -102,22 +113,21 @@ async def on_chat_start():
 async def on_message(message: cl.Message):
     question = message.content
 
-    # Retrieve with query expansion
-    chunks = await cl.make_async(retrieve_multi)(question)
+    all_chunks, top_chunks = await cl.make_async(retrieve_multi)(question)
 
-    # Source citation text elements
+    # Source citations — from all retrieved chunks
     source_elements = [
         cl.Text(
             name    = f"{c.get('source','')} p{c.get('page_start','')}–{c.get('page_end','')}",
             content = f"**{c.get('section','')} / {c.get('subsection','')}**\n\n{c['text']}",
             display = "side",
         )
-        for c in chunks
+        for c in all_chunks
     ]
 
-    # Inline image elements — deduplicated across all retrieved chunks
+    # Images — only from the top TOP_K_IMAGES scoring chunks, capped at MAX_IMAGES
     image_elements = []
-    for fig_path in collect_figures(chunks):
+    for fig_path in collect_figures(top_chunks):
         abs_path = PROJECT_ROOT / fig_path
         if abs_path.exists():
             image_elements.append(
@@ -131,7 +141,7 @@ async def on_message(message: cl.Message):
     response = cl.Message(content="", elements=source_elements + image_elements)
     await response.send()
 
-    prompt = build_prompt(question, chunks)
+    prompt = build_prompt(question, all_chunks)
     stream = await cl.make_async(ollama.generate)(
         model  = LLM_MODEL,
         prompt = prompt,
