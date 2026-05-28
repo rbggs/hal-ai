@@ -2,11 +2,13 @@
 
 Routing by extension:
   .pdf  → pdf_ingest (section-based chunking, image extraction)
+  .xml  → xml_ingest (structured DocBook/FrameMaker XML, per-Sect4 chunks, image linking)
   .txt  → word-based chunking (simple, no images)
 
 Run from project root:
     python src/rag/ingest.py
     python src/rag/ingest.py path/to/specific.pdf
+    python src/rag/ingest.py path/to/specific.xml
 """
 import sys
 import uuid
@@ -17,6 +19,7 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, PointStruct, VectorParams
 
 from pdf_ingest import ingest_pdf
+from xml_ingest import ingest_xml
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 INGESTIONS   = PROJECT_ROOT / "ingestions"
@@ -92,6 +95,8 @@ def main() -> None:
     for path in targets:
         if path.suffix.lower() == ".pdf":
             count = ingest_pdf(client, COLLECTION, path)
+        elif path.suffix.lower() == ".xml":
+            count = ingest_xml(client, COLLECTION, path)
         elif path.suffix.lower() == ".txt":
             print(f"[txt] {path.name}")
             count = ingest_txt(client, path)
