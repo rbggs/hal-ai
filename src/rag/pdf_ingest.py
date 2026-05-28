@@ -23,10 +23,11 @@ from qdrant_client.models import PointStruct
 
 PROJECT_ROOT  = Path(__file__).resolve().parent.parent.parent
 EMBED_MODEL   = "nomic-embed-text:latest"
-SECTION_FONT  = 14.0   # font size >= this → major section heading
-HEADING_FONT  = 11.0   # font size >= this → minor heading / subsection
-MIN_IMG_AREA  = 5000   # px² — below this = icon/decorative, skip
-Y_TOLERANCE   = 3.0    # px — words within this y-band are on the same row
+SECTION_FONT    = 14.0   # font size >= this → major section heading
+HEADING_FONT    = 11.0   # font size >= this → minor heading / subsection
+MIN_IMG_AREA    = 5000   # px² — below this = icon/decorative, skip
+Y_TOLERANCE     = 3.0    # px — words within this y-band are on the same row
+MAX_EMBED_CHARS = 7000   # nomic-embed-text context = 2048 tokens (~8192 chars); leave buffer
 
 
 # ── data model ────────────────────────────────────────────────────────────────
@@ -207,8 +208,18 @@ def extract_chunks(pdf_path: Path, page_figures: dict[int, list[str]]) -> list[C
 
 # ── embedding + upsert ────────────────────────────────────────────────────────
 
+_REPEATED_PUNCT = re.compile(r"([^\w\s])\1{2,}")   # 3+ identical non-word chars
+
+
+def _clean_for_embed(text: str) -> str:
+    """Remove dot-leaders and repeated punctuation that inflate token count."""
+    text = _REPEATED_PUNCT.sub(" ", text)
+    return re.sub(r" {2,}", " ", text).strip()
+
+
 def _embed(text: str) -> list[float]:
-    return ollama.embeddings(model=EMBED_MODEL, prompt=text)["embedding"]
+    clean = _clean_for_embed(text)[:MAX_EMBED_CHARS]
+    return ollama.embeddings(model=EMBED_MODEL, prompt=clean)["embedding"]
 
 
 def upsert_chunks(client: QdrantClient, collection: str, chunks: list[Chunk]) -> int:
