@@ -43,6 +43,30 @@ This gives: beads for *why*, git for *what*, log for human audit trail.
 - POC: Mac (Apple Silicon)
 - Docs live in `docs/`, Obsidian-formatted Markdown
 
+## Directory Structure
+
+```
+hal-ai/                         ← project root (bundle boundary)
+├── ingestions/                 ← drop source PDFs/docs here for ingestion
+├── data/
+│   └── figures/
+│       └── {source-slug}/      ← images extracted from ingested PDFs
+│           ├── page14_img1.png
+│           └── ...
+├── src/
+│   ├── rag/                    ← ingestion pipeline + query engine
+│   └── ui/                     ← Chainlit frontend
+├── scripts/                    ← ops scripts (cleanup, deploy, bundle)
+└── docs/                       ← ADRs, requirements, Obsidian vault
+```
+
+## Image Storage Convention
+
+- All figures extracted during PDF ingestion go under `data/figures/{source-slug}/`
+- `source-slug` = PDF filename stem, lowercased, spaces→hyphens (e.g. `volvo-trucks-basic-service-manual`)
+- Paths stored in Qdrant payloads are **relative to project root** — never absolute
+- This keeps the entire project self-contained and bundleable for air-gap deployment
+
 ## Session Bootstrap
 
 Run at the start of every session:

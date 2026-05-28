@@ -19,3 +19,4 @@ Format: `date | file | change | beads issue | git commit`
 | 2026-05-27 | CLAUDE.md | Added Constitutional Change Protocol: bd + git + log workflow | — | pending |
 | 2026-05-27 | CLAUDE.md | Updated Current Phase, Next Action, Epic Map — Ollama + Chainlit spike done; gemma4 model decision added | hal-ai-wjy | pending |
 | 2026-05-27 | CLAUDE.md | Switched Docker → Podman in stack, deployment, and key decisions | hal-ai-b8n | pending |
+| 2026-05-28 | CLAUDE.md | Added Directory Structure section and Image Storage Convention — all extracted figures under data/figures/{source-slug}/, project-relative paths in Qdrant payloads | hal-ai-s3m | pending |
