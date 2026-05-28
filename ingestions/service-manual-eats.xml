@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?Fm Condition InformationOnly Blue STRIKETHROUGH show AsIs?>
+<?Fm BoolCondExpr "Comment"OR"InformationOnly" State 0?>
+<Chapter ManualType="21" InfoType="Descriptive" Aggregate="21"
+    AggregateType="36" Language="EN" Version="1.0"
+    Date="14-08-2025"><Sect1><Title>EATs</Title>
+<Subtitle>EATs_ET140s9</Subtitle>
+<Model>Pro 6031T, Pro 6037H, Pro 6042H, Pro 6048H, Pro 6048 T, Pro
+6046TT, Pro 6049TT, Pro 6054TT, Pro 6055TT, Pro 6028T, Pro 6042HT,
+Pro 6035TM, Pro 8028XC, Pro 8028XM, Pro 8035XM, Pro 8055TT</Model>
+<Sect2><Title>Eats Removal And Installation</Title>
+<Sect3><Title>Catalytic Converter</Title>
+<Sect4><Title>Tools and Equipment:</Title>
+<ItemizedList><ListItem><Para>13 mm combination spanner</Para></ListItem>
+<ListItem><Para>½ inch drive ratchet with 13 mm socket bit</Para></ListItem>
+<ListItem><Para>Torque wrench (range 20 to 25 Nm)</Para></ListItem>
+<ListItem><Para>Personal protective gloves</Para></ListItem>
+<ListItem><Para>Safety goggles</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Parts List / Requirements:</Title>
+<InformalTable><TGroup><THead><TRow><TCell>S.NO</TCell><TCell>Part
+Number</TCell><TCell>Description</TCell><TCell>Quantity</TCell></TRow></THead>
+<TBody><TRow><TCell>1</TCell><TCell>ID601934</TCell><TCell>Catalytic
+convertor</TCell><TCell>1</TCell></TRow><TRow><TCell>2</TCell><TCell>ID312534</TCell>
+<TCell>Clamp</TCell><TCell>1</TCell></TRow><TRow><TCell>3</TCell>
+<TCell>ID202261</TCell><TCell>U-bolt</TCell><TCell>2</TCell></TRow>
+<TRow><TCell>4</TCell><TCell>ID381492</TCell><TCell>Gasket</TCell>
+<TCell>1</TCell></TRow><TRow><TCell>5</TCell><TCell>MF430122</TCell>
+<TCell>Nuts</TCell><TCell>4</TCell></TRow><TRow><TCell>6</TCell><TCell>MF140460</TCell>
+<TCell>Mounting bolts</TCell><TCell>6</TCell></TRow></TBody></TGroup></InformalTable></Sect4>
+<Sect4><Title>Work Time / Flat Rate Timing</Title>
+<ItemizedList><ListItem><Para>Estimated time: 45 minutes</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Diagnostic Code Availability</Title>
+<ItemizedList><ListItem><Para>Not applicable for this procedure.</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Pre-removal Procedure</Title>
+<ItemizedList><ListItem><Para>Ensure the vehicle is on level ground.</Para></ListItem>
+<ListItem><Para>Allow the exhaust system to cool completely.</Para></ListItem>
+<ListItem><Para>Disconnect the vehicle battery to prevent electrical
+hazards.</Para></ListItem>
+<ListItem><Para>Wear safety gloves and goggles.</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Removal Procedure</Title>
+<InformalTable><TGroup><THead><TRow><TCell>Warning</TCell></TRow></THead>
+<TBody><TRow><TCell>SCR catalytic convertor (1) is heavier than
+standard exhaust mufflers. Two or more people must hold the catalytic
+convertor (1) during removal to avoid personal injury.</TCell></TRow></TBody></TGroup></InformalTable>
+<InformalTable><TGroup><THead><TRow><TCell>Warning</TCell></TRow></THead>
+<TBody><TRow><TCell>Exhaust components may be hot. Allow sufficient cooling
+time before beginning the procedure to prevent personal injury.</TCell></TRow></TBody></TGroup></InformalTable>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para></ListItem>
+<ListItem><Para></Para>
+<Para>Disconnect the wiring harness connector (1) from the catalytic
+convertor (2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360020.jpg"
+    entity="Graphic1" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen the clamp (1) located at the decomposition tube (2)
+side using a 13 mm spanner.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360021.jpg"
+    entity="Graphic2" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the mounting nut (1) from the U-bolt (2) on the catalytic
+convertor (3) using a 13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360022.jpg"
+    entity="Graphic3" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen the mounting nut (1) on the other side of the U-bolt
+(2), then remove the U-bolt (2) and nut (1) entirely.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360023.jpg"
+    entity="Graphic4" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the mounting bolt (1) of the catalytic convertor (2)
+from the tailpipe side and take out the catalytic convertor (2)
+along with the gasket (3).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360024.jpg"
+    entity="Graphic19" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Inspection</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Check for cracks, corrosion, or carbon deposits on the catalytic
+convertor (2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360025.jpg"
+    entity="Graphic21" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Ensure the gasket (3) is intact and not brittle or damaged.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360026.jpg"
+    entity="Graphic31" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Verify the clamp (1), U-bolt (2), and mounting hardware are
+not worn or deformed.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360027.jpg"
+    entity="Graphic36" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Lubrication</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Apply anti-seize lubricant to the U-bolt (3) threads and mounting
+bolts (5) before installation.</Para>
+<InformalFigure Value="0">
+<Graphic entity="Graphic37" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Installation Procedure </Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Align the catalytic convertor (2) with the tailpipe and position
+the gasket (3) correctly.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360028.jpg"
+    entity="Graphic39" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Tighten the mounting bolt (1) on the tailpipe side using a
+13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360029.jpg"
+    entity="Graphic50" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the mounting bolt (1) between 20 to 25 Nm using a torque
+wrench.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360029.jpg"
+    entity="Graphic50" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Position the U-bolt (1) with the catalytic convertor support
+bracket (2) and tighten the mounting nuts (3) using a 13 mm spanner.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360030.jpg"
+    entity="Graphic51" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque both U-bolt nuts (1) between 20 to 25 Nm using a torque
+wrench.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360031.jpg"
+    entity="Graphic52" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Attach the U-bolt (1) at the decomposition tube (2) side and
+tighten both mounting nuts (3). Then, secure the clamp (4) using
+a 13 mm spanner.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360032.jpg"
+    entity="Graphic53" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque all U-bolt (1) and clamp (2) bolts between 20 to 25
+Nm using a torque wrench.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360033.jpg"
+    entity="Graphic54" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Reconnect the wiring harness (1) to the catalytic convertor
+(2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.6 Catalytic Convertor\21360020.jpg"
+    entity="Graphic1" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Alignment Check</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Ensure the catalytic convertor (1) is aligned properly with
+the exhaust pipe and mounted without strain on joints or brackets.</Para>
+<InformalFigure Value="0">
+<Graphic entity="Graphic37" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Final Testing</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Start the engine and inspect for any exhaust leaks.</Para>
+<InformalFigure Value="0">
+<Graphic entity="Graphic37" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Check that the catalytic convertor (1) and pipe joints are
+vibration-free and secure.</Para>
+<InformalFigure Value="0">
+<Graphic entity="Graphic37" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Warranty Clause </Title>
+<ItemizedList><ListItem><Para>Use only OEM-approved parts and torque
+specifications.</Para></ListItem>
+<ListItem><Para>Warranty may be void if procedure is not followed
+precisely using the recommended tools and specifications.</Para></ListItem></ItemizedList></Sect4></Sect3>
+<Sect3><Title>EATS ACM Harness</Title>
+<Sect4><Title>Tools and Equipment:</Title>
+<ItemizedList><ListItem><Para>10 mm spanner (for wing nut removal
+if tightened)</Para></ListItem>
+<ListItem><Para>Gloved hands (for handling connections and harness)</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Parts List / Requirements:</Title>
+<InformalTable><TGroup><THead><TRow><TCell>S.NO</TCell><TCell>Part
+Number</TCell><TCell>Description</TCell><TCell>Quantity</TCell></TRow></THead>
+<TBody><TRow><TCell>1</TCell><TCell>NS (23-043-RC200100001D )</TCell>
+<TCell>ACM harness (if replacement is required)</TCell><TCell>1</TCell></TRow>
+<TRow><TCell>2</TCell><TCell></TCell><TCell>Washer (if damaged or
+rusted)</TCell><TCell>1</TCell></TRow><TRow><TCell>3</TCell><TCell>IF000327</TCell>
+<TCell>Wing nut (if damaged or rusted)</TCell><TCell>1</TCell></TRow>
+<TRow><TCell>4</TCell><TCell>IC419603</TCell><TCell>Top cover (UREA
+TANK DUST COVER ASSY)</TCell><TCell>1</TCell></TRow></TBody></TGroup></InformalTable></Sect4>
+<Sect4><Title>Work Time / Flat Rate Timing</Title>
+<ItemizedList><ListItem><Para>Estimated time: 0.20 hours</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Diagnostic Code Availability</Title>
+<ItemizedList><ListItem><Para>Not applicable for mechanical removal
+and fitment task</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Pre-removal Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Park the vehicle on a level surface and switch off the ignition
+key.</Para></ListItem>
+<ListItem><Para>Allow the urea tank and its components to cool completely
+before handling.</Para></ListItem></OrderedList></Sect4>
+<Sect4><Title>Removal Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Use gloved hands or a 10 mm spanner to loosen the urea dust
+cover wing nut (1).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360014.jpg"
+    entity="Graphic55" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the wing nut (1) along with the washer (2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360015.jpg"
+    entity="Graphic56" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Lift and take out the top cover (1) from the urea tank (2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360016.jpg"
+    entity="Graphic57" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Disconnect all ACM harness connectors carefully by hand.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360017.jpg"
+    entity="Graphic58" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Gently pull and remove the ACM harness (1) from its installed
+position.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360018.jpg"
+    entity="Graphic63" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Inspection</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Check the condition of the ACM harness (1) connectors for
+corrosion or damage.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360018.jpg"
+    entity="Graphic63" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Ensure the dust cover, washer, and wing nut are free from
+cracks or wear.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360017.jpg"
+    entity="Graphic64" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Lubrication</Title>
+<ItemizedList><ListItem><Para>Not applicable.</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Installation Procedure </Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Position the ACM harness (1) correctly and route it along
+the original path.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360018.jpg"
+    entity="Graphic63" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Connect all ACM harness connectors securely.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360017.jpg"
+    entity="Graphic58" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.020in"
+    yoffset="0.020in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Place the top cover (1) back onto the urea tank (2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360016.jpg"
+    entity="Graphic57" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Install the washer (1)and wing nut (2) onto the dust cover
+stud.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360019.jpg"
+    entity="Graphic69" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Tighten the wing nut (1) securely by hand or using a 10 mm
+spanner.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360014.jpg"
+    entity="Graphic55" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the wing nut (1) to 5 to 7 Nm using a torque wrench
+with a 10 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360014.jpg"
+    entity="Graphic55" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Alignment Check</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Ensure the ACM harness (1) routing does not interfere with
+other vehicle components.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360018.jpgZ:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360018.jpg"
+    entity="Graphic63" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Confirm connectors are fully seated and locked.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\21360018.jpg"
+    entity="Graphic63" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Final Testing</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Turn ON the ignition and observe the dashboard for any EATS-related
+warning messages.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\AD.jpg"
+    entity="Graphic64" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Use the diagnostic tool to verify ACM communication is active.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.6 EATS ACM Harness\AD.jpg"
+    entity="Graphic64" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Warranty Clause </Title>
+<Para>Applicable warranty types:</Para>
+<ItemizedList><ListItem><Para>Parts Warranty</Para></ListItem>
+<ListItem><Para>Labour Warranty</Para></ListItem>
+<ListItem><Para>Standard Vehicle Warranty</Para></ListItem>
+<ListItem><Para>LCP Scheme (Labour, Consumables, Parts)</Para></ListItem></ItemizedList></Sect4></Sect3>
+<Sect3><Title>Eats Assembly</Title>
+<Sect4><Title>Tools and Equipment:</Title>
+<ItemizedList><ListItem><Para>10 mm socket with ratchet</Para></ListItem>
+<ListItem><Para>13 mm socket with ratchet</Para></ListItem>
+<ListItem><Para>Torque wrench (3/8 inch) with 10 mm and 13 mm sockets</Para></ListItem>
+<ListItem><Para>V-band clamp tightening tool</Para></ListItem>
+<ListItem><Para>Special tool trolley (for EATS muffler support)</Para></ListItem>
+<ListItem><Para>Anti-seize lubricant</Para></ListItem>
+<ListItem><Para>Protective gloves (for handling electrical connectors
+and components)</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Parts List / Requirements:</Title>
+<InformalTable><TGroup><THead><TRow><TCell>S.NO</TCell><TCell>Part
+Number</TCell><TCell>Description</TCell><TCell>Quantity</TCell></TRow></THead>
+<TBody><TRow><TCell>1</TCell><TCell>ID312453</TCell><TCell>New V-band
+clamp (mandatory if previously reused)</TCell><TCell>1</TCell></TRow>
+<TRow><TCell>2</TCell><TCell>MF450005</TCell><TCell>New washers
+bracket (if damaged)</TCell><TCell>7</TCell></TRow><TRow><TCell>3</TCell>
+<TCell>MF140221</TCell><TCell>Bolts for muffler</TCell><TCell>13</TCell></TRow>
+<TRow><TCell>4</TCell><TCell>ID370523</TCell><TCell>Muffler mounting
+hardware</TCell><TCell>1</TCell></TRow><TRow><TCell>5</TCell><TCell>Need
+to collect</TCell><TCell>Exhaust sealing gasket (if applicable)</TCell>
+<TCell>1</TCell></TRow><TRow><TCell>6</TCell><TCell>ID366328</TCell>
+<TCell>Bracket, Box Muffler</TCell><TCell>1</TCell></TRow><TRow><TCell>7</TCell>
+<TCell>ID366900</TCell><TCell>ASSY FRONT EXHAUST PIPE</TCell><TCell>1</TCell></TRow></TBody></TGroup></InformalTable></Sect4>
+<Sect4><Title>Work Time / Flat Rate Timing</Title>
+<ItemizedList><ListItem><Para>Estimated total time for removal and
+installation: 1.5 hours</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Diagnostic Code Availability</Title>
+<ItemizedList><ListItem><Para>Fault codes may be generated if sensors
+are disconnected without prior power-down.</Para></ListItem>
+<ListItem><Para>Use the authorized diagnostic tool to scan and clear
+fault codes after installation.</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Pre-removal Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Park the vehicle on a level surface and engage the parking
+brake.</Para></ListItem>
+<ListItem><Para>Turn off the ignition and wait for the EATS muffler
+to cool completely.</Para></ListItem>
+<ListItem><Para>Wear safety gloves and protective eyewear.</Para></ListItem></OrderedList>
+<InformalTable><TGroup><THead><TRow><TCell>Warning</TCell></TRow></THead>
+<TBody><TRow><TCell>Do not touch the EATS muffler or exhaust system while
+hot. Wait until components are fully cooled to prevent personal
+injury.</TCell></TRow></TBody></TGroup></InformalTable></Sect4>
+<Sect4><Title>Removal Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Loosen and remove beauty shield (1) mounting bolts (2) using
+a 10 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360034.jpg"
+    entity="Graphic72" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the EATS muffler beauty shield (1).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360035.jpg"
+    entity="Graphic74" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen and remove the muffler mudguard bracket bolts (1) using
+a 10 mm socket and ratchet.</Para>
+<Para>Detach the muffler mudguard bracket (2) and mudguard (3) from
+the EATS muffler (4).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360036.jpg"
+    entity="Graphic76" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Disconnect the connectors from the urea dosing sensor(1),
+injection port (2), and coolant inlet (3) and outlet (4) ports using
+gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360037.jpg"
+    entity="Graphic80" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen the V-band clamp (1) using the V-band clamp tool and
+disconnect the exhaust pipe from the muffler (2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360038.jpg"
+    entity="Graphic81" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the upper and lower muffler bracket (1) and mudguard
+bracket bolts (2) using a 13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360039.jpg"
+    entity="Graphic82" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Disconnect all electrical connectors from the DOC (4), DPF,
+SCR temperature sensors (5), NOx sensors (3), and differential pressure
+sensor using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360040.jpg"
+    entity="Graphic83" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Place the special tool trolley (1) under the muffler (2) to
+support its weight.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360041.jpg"
+    entity="Graphic84" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the LH upper muffler bracket (1) and mudguard bracket
+bolts (2) using a 10 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360042.jpg"
+    entity="Graphic85" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the nut and washer (1) using a 13 mm socket and ratchet
+from the lower muffler bracket (2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360043.jpg"
+    entity="Graphic86" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Carefully remove the complete EATS assembly using the trolley.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Inspection</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Check the V-band clamp (1) for cracks, deformation, or wear.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360044.jpg"
+    entity="Graphic88" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Inspect mounting brackets (1) and bushings for damage.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360045.jpg"
+    entity="Graphic89" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Ensure all sensor connectors are free from corrosion and damage.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Clean all mating surfaces of soot, rust, and debris.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Lubrication</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Apply anti-seize lubricant to all mounting bolts, V-band clamp
+threads, and sensor threads before installation.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="-0.059in"
+    yoffset="-0.020in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Installation Procedure </Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Position the EATS muffler (1) on the special tool trolley
+(2) and align it to the vehicle chassis.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360046.jpg"
+    entity="Graphic90" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Install the nut and washer (1) to the lower muffler bracket
+(2) and tighten using a 13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360043.jpg"
+    entity="Graphic86" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the lower muffler bracket nut (1) to 22 to 25 Nm using
+a torque wrench with a 13 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360047.eps"
+    entity="Graphic91" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Install the LH upper muffler bracket (1) and mudguard bracket
+bolts (2) and tighten using a 10 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360048.jpg"
+    entity="Graphic92" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the LH upper bracket bolts(1) to 8 to 11 Nm using a
+torque wrench with a 10 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360049.jpg"
+    entity="Graphic93" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Reconnect all electrical connectors to the DOC, DPF, SCR,
+NOx, and differential pressure sensors using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360040.jpg"
+    entity="Graphic83" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Install the upper and lower muffler mudguard bracket (1) to
+the muffler bracket frame (2) using a bolt (3) and tighten using
+10 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360050.jpg"
+    entity="Graphic94" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the mudguard bracket bolts (1) to 8 to 11 Nm using
+a torque wrench with a 10 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360051.jpg"
+    entity="Graphic95" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Align the exhaust pipe (1) with the muffler outlet (2) and
+secure it with the V-band clamp (3) using the V-band clamp tool.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360052.jpg"
+    entity="Graphic96" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the V-band clamp (1) to 5 to 7 Nm using a torque wrench.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360038.jpg"
+    entity="Graphic81" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Connect the urea injection port (1), dosing sensor (2), and
+coolant lines (3) (4) using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360053.jpg"
+    entity="Graphic97" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Attach the muffler mudguard bracket (1) and mudguard (2) from
+the EATS muffler (3).</Para>
+<Para>Install the muffler mudguard bracket bolts (4)and tighten
+using a 10 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360054.jpg"
+    entity="Graphic98" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the muffler mudguard bracket bolts (1)to 8 to 11 Nm
+using a torque wrench with a 10 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360055.jpg"
+    entity="Graphic99" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Place the EATS beauty shield (1) over the EATS muffler (2).</Para>
+<Para>Install the mounting bolts (3) to the EATS beauty shield (1)
+and tighten using a 10 mm socket and ratchet</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360056.jpg"
+    entity="Graphic100" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the beauty shield bolts (1) to 8 to 11 Nm using a torque
+wrench with a 10 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360057.jpg"
+    entity="Graphic101" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Alignment Check</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Ensure the EATS muffler is properly aligned with the exhaust
+flange.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Confirm there is no stress or misalignment in the bracket
+assembly or sensor routing.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>The V-band clamp (1) should be seated evenly without any gap.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\21360044.jpg"
+    entity="Graphic88" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Final Testing</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Start the engine and allow it to idle.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Use a diagnostic tool to check for any active fault codes.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Monitor live sensor data to confirm proper functioning.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Inspect for any signs of leakage or abnormal noise.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Conduct a short road test to verify EATS operational status.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.7 EATS Assembly\AD.jpg"
+    entity="Graphic87" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Warranty Clause </Title>
+<Para>Applicable warranty coverage under the following categories:</Para>
+<ItemizedList><ListItem><Para>Standard Vehicle Warranty</Para></ListItem>
+<ListItem><Para>Aggregate Warranty</Para></ListItem>
+<ListItem><Para>Parts Warranty</Para></ListItem>
+<ListItem><Para>Labour Warranty</Para></ListItem>
+<ListItem><Para>Consumables Warranty</Para></ListItem>
+<ListItem><Para>Extended / Driveline Warranty</Para></ListItem>
+<ListItem><Para>LCP Scheme (Labour, Consumables, Parts)</Para></ListItem>
+<ListItem><Para>AMC (Annual Maintenance Contract)</Para></ListItem>
+<ListItem><Para>Eicher Promise (Uptime / Service Assurance)</Para></ListItem>
+<ListItem><Para>Goodwill Warranty (Subject to approval)</Para></ListItem></ItemizedList></Sect4></Sect3>
+<Sect3><Title>Urea Quality Level Sensor (UQLS)</Title>
+<Sect4><Title>Tools and Equipment:</Title>
+<ItemizedList><ListItem><Para>10 mm socket and ratchet</Para></ListItem>
+<ListItem><Para>Torque wrench (3/8 inch) with 10 mm socket</Para></ListItem>
+<ListItem><Para>Flathead screwdriver</Para></ListItem>
+<ListItem><Para>Clean dry cloth</Para></ListItem>
+<ListItem><Para>Approved urea-compatible lubricant</Para></ListItem>
+<ListItem><Para>Protective gloves</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Parts List / Requirements:</Title>
+<InformalTable><TGroup><THead><TRow><TCell>S.NO</TCell><TCell>Part
+Number</TCell><TCell>Description</TCell><TCell>Quantity</TCell></TRow></THead>
+<TBody><TRow><TCell>1</TCell><TCell>ID374268</TCell><TCell>UQLS
+sensor assembly (if replacement required)</TCell><TCell>1</TCell></TRow>
+<TRow><TCell>2</TCell><TCell>ID374268</TCell><TCell>UQLS Kit (includes
+new filter, O-ring, and retaining clip)</TCell><TCell>1</TCell></TRow>
+<TRow><TCell>3</TCell><TCell>IC419111</TCell><TCell>Sensor gasket
+(replace if damaged)</TCell><TCell>1</TCell></TRow><TRow><TCell>4</TCell>
+<TCell>IC334540</TCell><TCell>UQLS sensor clamp</TCell><TCell>1</TCell></TRow>
+<TRow><TCell>5</TCell><TCell>IC419113</TCell><TCell>Sensor lid and
+top cover (reuse if undamaged)</TCell><TCell></TCell></TRow><TRow>
+<TCell>6</TCell><TCell>IC419547</TCell><TCell>Fasteners and washers
+(if damaged)</TCell><TCell></TCell></TRow></TBody></TGroup></InformalTable></Sect4>
+<Sect4><Title>Work Time / Flat Rate Timing</Title>
+<ItemizedList><ListItem><Para>Estimated time for removal and installation:
+0.7 hours</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Diagnostic Code Availability</Title>
+<ItemizedList><ListItem><Para>Fault codes may appear if the sensor
+is removed with the ignition ON.</Para></ListItem>
+<ListItem><Para>Use a diagnostic tool to verify and clear codes
+after installation.</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Pre-removal Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Park the vehicle on a level surface.</Para></ListItem>
+<ListItem><Para>Switch off the ignition.</Para></ListItem>
+<ListItem><Para>Allow the urea system to cool before handling.</Para></ListItem>
+<ListItem><Para>Wear protective gloves and safety eyewear.</Para></ListItem></OrderedList>
+<InformalTable><TGroup><THead><TRow><TCell>Caution</TCell></TRow></THead>
+<TBody><TRow><TCell>Do not drop the sensor. If the sensor is dropped,
+do not reuse it. Internal damage may not be visible but can affect
+performance.</TCell></TRow></TBody></TGroup></InformalTable></Sect4>
+<Sect4><Title>Removal Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Loosen and remove the wing nut (1) and washer (2) from the
+top cover (3) of the urea tank using a 10 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360058.jpg"
+    entity="Graphic102" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the top cover (1) from the urea tank (2) using gloved
+hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360059.jpg"
+    entity="Graphic103" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Disconnect the urea outlet (1) and backflow connections (2)
+from the UQLS ports (3) using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360060.jpg"
+    entity="Graphic111" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Disconnect the electrical connector (1) from the UQLS sensor(1)
+using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360061.jpg"
+    entity="Graphic119" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the clamp (1)securing the UQLS sensor (2)using a flathead
+screwdriver.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360062.jpg"
+    entity="Graphic120" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen and remove the bolt (1) from the top metal plate (2)
+using a 10 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360063.jpg"
+    entity="Graphic121" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the sensor lid (1) along with the gasket (2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360064.jpg"
+    entity="Graphic122" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Carefully take out the urea quality level sensor (1) assembly
+from the AdBlue tank (2) using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360065.jpg"
+    entity="Graphic123" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>For tandem fuel tank(1) vehicles, rotate the sensor (2) from
+0 to 180 degrees before removal to prevent interference.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360066.jpg"
+    entity="Graphic124" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Inspection</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Inspect the sensor for cracks, corrosion, or contamination.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360067.jpg"
+    entity="Graphic125" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Check the filter (1) O-ring (1) and clip (3) for wear or deformation.
+Replace if necessary.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360067.jpg"
+    entity="Graphic125" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Ensure connectors are clean, dry, and undamaged.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Clean any dirt or crystallized urea from the mounting surfaces.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Lubrication</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Apply approved urea-compatible lubricant to the new O-ring
+before installation.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Installation Procedure </Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Clean the sensor (1) housing and mating surfaces using a clean
+dry cloth.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360068.jpg"
+    entity="Graphic127" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Insert the new O-ring (1)into the groove on the sensor port
+using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360069.jpg"
+    entity="Graphic128" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Apply the approved urea-compatible lubricant to the O-ring
+(1).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360069.jpg"
+    entity="Graphic128" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Insert the new filter element (1) into the UQLS (2) housing
+until fully seated.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360070.jpg"
+    entity="Graphic129" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Install the new retaining clip (1) from the UQLS kit. Use
+a flathead screwdriver to ensure it locks properly.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360071.jpg"
+    entity="Graphic130" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Carefully position the UQLS sensor (1) assembly into the AdBlue
+tank (2) using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360065.jpg"
+    entity="Graphic123" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>For tandem fuel tank (1) vehicles, rotate the sensor (2) from
+180 to 0 degrees during insertion.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360066.jpg"
+    entity="Graphic124" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Align and place the gasket (1) and sensor lid (2)onto the
+tank opening.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360072.jpg"
+    entity="Graphic131" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Place the top metal plate (1) onto the sensor lid (2).</Para>
+<Para>Insert and tighten the bolt (3) using a 10 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360073.jpg"
+    entity="Graphic132" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the metal plate bolt (1) to 8 to 11 Nm using a torque
+wrench with a 10 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360074.jpg"
+    entity="Graphic133" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Secure the UQLS sensor (1)with the clamp (2) using a flathead
+screwdriver.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360075.jpg"
+    entity="Graphic134" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Connect the electrical connector (1) to the sensor (2) using
+gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360076.jpg"
+    entity="Graphic135" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Reconnect the urea outlet (1) and backflow (2) lines to the
+sensor ports (3) using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360077.jpg"
+    entity="Graphic136" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Place the urea tank top cover(1).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360078.jpg"
+    entity="Graphic137" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Fit and tighten the wing nut (1) along with the washer (2)
+using a 10 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360079.jpg"
+    entity="Graphic138" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the wing nut (1)to 5 to 7 Nm using a torque wrench
+with a 10 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\21360080.jpg"
+    entity="Graphic139" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Alignment Check</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Ensure the sensor is seated flat and centered in the tank
+port.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Verify that hose and connector routing is correct and stress-free.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Confirm the top cover is flush and secured to the tank body.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Final Testing</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Start the engine and monitor the system.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Check for any fault codes using a diagnostic tool.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Verify that urea level and quality readings are displayed
+correctly.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Inspect for any leaks or loose connections at sensor and hose
+ports.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8 Urea Quality Level Sensor (UQLS)\AD.jpg"
+    entity="Graphic126" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Warranty Clause </Title>
+<Para>The following warranty types apply:</Para>
+<ItemizedList><ListItem><Para>Standard Vehicle Warranty</Para></ListItem>
+<ListItem><Para>Parts Warranty</Para></ListItem>
+<ListItem><Para>Labour Warranty</Para></ListItem>
+<ListItem><Para>Consumables Warranty</Para></ListItem>
+<ListItem><Para>Aggregate Warranty</Para></ListItem>
+<ListItem><Para>Goodwill Warranty (subject to approval)</Para></ListItem>
+<ListItem><Para>Extended / Driveline Warranty</Para></ListItem>
+<ListItem><Para>LCP Scheme (Labour, Consumables, Parts)</Para></ListItem>
+<ListItem><Para>AMC (Annual Maintenance Contract)</Para></ListItem>
+<ListItem><Para>Uptime / Eicher Promise</Para></ListItem></ItemizedList></Sect4></Sect3>
+<Sect3><Title>Measurement of AdBlue Concentration</Title>
+<Sect4><Title>Tools and Equipment:</Title>
+<ItemizedList><ListItem><Para>Digital refractometer (Tool No. ST125498)</Para></ListItem>
+<ListItem><Para>Clean dry cloth</Para></ListItem>
+<ListItem><Para>Clean water (for post-test cleaning)</Para></ListItem>
+<ListItem><Para>Gloves (chemical resistant, for fluid handling)</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Parts List / Requirements:</Title>
+<InformalTable><TGroup><THead><TRow><TCell>S.NO</TCell><TCell>Part
+Number</TCell><TCell>Description</TCell><TCell>Quantity</TCell></TRow></THead>
+<TBody><TRow><TCell>1</TCell><TCell>Need to check</TCell><TCell>Fresh
+AdBlue sample collected from the vehicle tank or test source</TCell>
+<TCell>1</TCell></TRow><TRow><TCell>2</TCell><TCell>Need to check</TCell>
+<TCell>Sampling container (clean and free from contaminants)</TCell>
+<TCell>1</TCell></TRow></TBody></TGroup></InformalTable></Sect4>
+<Sect4><Title>Work Time / Flat Rate Timing</Title>
+<ItemizedList><ListItem><Para>Estimated time for testing: 5 minutes
+per sample</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Diagnostic Code Availability</Title>
+<ItemizedList><ListItem><Para>Not applicable. This is a manual measurement
+step.</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Pre-Measurement Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Park the vehicle on a level surface.</Para></ListItem>
+<ListItem><Para>Switch off the ignition.</Para></ListItem>
+<ListItem><Para>Wait for the system to cool before collecting the
+AdBlue sample.</Para></ListItem>
+<ListItem><Para>Wear gloves and safety eyewear.</Para></ListItem>
+<ListItem><Para>Ensure refractometer lens surface (prism) is clean
+and dry.</Para></ListItem></OrderedList></Sect4>
+<Sect4><Title>Measurement Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Use ST125498 Refractometer tool to measure the Adblue concentration
+level</Para>
+<Para>Place a small quantity of AdBlue sample (1) directly on the
+prism surface (2) of the refractometer (3) using a dropper or clean
+pipette.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8.3 Measurement of AdBlue Concentration\21360081.jpg"
+    entity="Graphic140" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Press the Start key (1)on the refractometer (2).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8.3 Measurement of AdBlue Concentration\21360082.jpg"
+    entity="Graphic141" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Wait approximately 3 seconds for the digital display (1) to
+show the measured concentration.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8.3 Measurement of AdBlue Concentration\21360083.jpg"
+    entity="Graphic142" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Note the displayed value. AdBlue should typically read 31.8%
+to 33.2% urea concentration.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8.3 Measurement of AdBlue Concentration\21360084.jpg"
+    entity="Graphic143" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the sample from the prism surface (1).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8.3 Measurement of AdBlue Concentration\21360085.jpg"
+    entity="Graphic144" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Clean the prism (1)using clean water and wipe dry with a clean,
+soft cloth.</Para>
+<InformalTable><TGroup><THead><TRow><TCell>Note</TCell></TRow></THead>
+<TBody><TRow><TCell>Clean the refractometer with water after every
+test to avoid contamination and ensure accurate results.</TCell></TRow></TBody></TGroup></InformalTable>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8.3 Measurement of AdBlue Concentration\21360085.jpg"
+    entity="Graphic144" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Final Testing and Interpretation</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>If the AdBlue concentration falls outside the acceptable range
+(31.8%–33.2%), replace the AdBlue with fresh fluid from an approved
+source.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8.3 Measurement of AdBlue Concentration\21360084.jpg"
+    entity="Graphic143" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Do not reuse tested samples.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.11.8.3 Measurement of AdBlue Concentration\21360086.jpg"
+    entity="Graphic145" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Warranty Clause </Title>
+<Para>Applicable warranty coverage if found defective or off-spec:</Para>
+<ItemizedList><ListItem><Para>Consumables Warranty (AdBlue quality-related
+claims)</Para></ListItem>
+<ListItem><Para>Parts Warranty (if UQLS or injector affected due
+to poor AdBlue quality)</Para></ListItem>
+<ListItem><Para>Goodwill Warranty (subject to approval in specific
+cases)</Para></ListItem></ItemizedList></Sect4></Sect3>
+<Sect3><Title>Vertical Exhaust – Removal and Installation Procedure</Title>
+<Sect4><Title>Tools and Equipment:</Title>
+<ItemizedList><ListItem><Para>13 mm socket and ratchet</Para></ListItem>
+<ListItem><Para>17 mm socket and ratchet</Para></ListItem>
+<ListItem><Para>V-band clamp tool</Para></ListItem>
+<ListItem><Para>Torque wrench (3/8 inch) with 13 mm and 17 mm sockets</Para></ListItem>
+<ListItem><Para>Gloved hands</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Parts List / Requirements:</Title>
+<InformalTable><TGroup><THead><TRow><TCell>S.NO</TCell><TCell>Part
+Number</TCell><TCell>Description</TCell><TCell>Quantity</TCell></TRow></THead>
+<TBody><TRow><TCell>1</TCell><TCell>ID332677</TCell><TCell>New V-band
+clamp (if reused previously)</TCell><TCell>1</TCell></TRow><TRow>
+<TCell>2</TCell><TCell>Need to check</TCell><TCell>Gasket for V-band
+joints</TCell><TCell>1</TCell></TRow><TRow><TCell>3</TCell><TCell>MF140229</TCell>
+<TCell>Exhaust bracket bolts (if damaged)</TCell><TCell>1</TCell></TRow>
+<TRow><TCell>4</TCell><TCell>MF434104</TCell><TCell>nuts</TCell><TCell>1</TCell></TRow>
+<TRow><TCell>5</TCell><TCell>Need to check</TCell><TCell>Vertical
+exhaust stay</TCell><TCell></TCell></TRow><TRow><TCell>6</TCell><TCell>MF450155</TCell>
+<TCell>Washers (replace if damaged)</TCell><TCell></TCell></TRow></TBody></TGroup></InformalTable></Sect4>
+<Sect4><Title>Work Time / Flat Rate Timing</Title>
+<ItemizedList><ListItem><Para>Estimated time for complete removal
+and installation: 1.2 hours</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Diagnostic Code Availability</Title>
+<ItemizedList><ListItem><Para>Not applicable for this mechanical
+operation.</Para></ListItem></ItemizedList></Sect4>
+<Sect4><Title>Pre-removal Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Park the vehicle on a level surface and apply the parking
+brake.</Para></ListItem>
+<ListItem><Para>Switch off the ignition and allow the exhaust system
+to cool down completely.</Para></ListItem>
+<ListItem><Para>Wear gloved hands and safety eyewear before beginning
+the procedure.</Para></ListItem>
+<ListItem><Para>Wear protective gloves and safety eyewear.</Para></ListItem></OrderedList>
+<InformalTable><TGroup><THead><TRow><TCell>Caution</TCell></TRow></THead>
+<TBody><TRow><TCell>Do not start PTO work until the transmission
+is fully drained to prevent oil spillage.</TCell></TRow></TBody></TGroup></InformalTable></Sect4>
+<Sect4><Title>Removal Procedure</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Loosen and remove the upper and lower mounting bolts (1) and
+nuts (2) along with washers (3) from the vertical exhaust stay (4)
+using a 13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360087.j"
+    entity="Graphic146" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Remove the vertical exhaust stay (1) from the vehicle using
+gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360088.j"
+    entity="Graphic147" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen and remove the mounting of vertical exhaust (1) clamp
+bolt (2) and nut (3) using a 13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360089.j"
+    entity="Graphic148" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen and remove the V-band clamp (1) that connects the vertical
+exhaust tail pipe (2) to the centre pipe exhaust using a V-band
+clamp tool.</Para>
+<Para>Remove the gasket (3) and take out the vertical exhaust tail
+pipe (2) using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360090.j"
+    entity="Graphic149" impsize="3.228in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Take out the vertical exhaust tail pipe (1) using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360091.j"
+    entity="Graphic150" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen and remove the clamp bolt (1) and nut (2) from the
+center pipe exhaust (3) using a 17 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360092.j"
+    entity="Graphic151" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen and remove the bracket mounting bolt (1) and nut (2),
+then take out the exhaust bracket (3) from the vertical exhaust
+using a 13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360093.j"
+    entity="Graphic152" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen and remove the V-band clamp (1) connecting the center
+pipe (2) to the muffler (3).</Para>
+<Para>Remove the centre pipe exhaust (2) along with the clamp (1)
+and gasket (4) using a V-band clamp tool.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360094.j"
+    entity="Graphic153" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Loosen and remove the vertical exhaust bracket (1) mounting
+bolt (2) and nut (3) using a 13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360095.j"
+    entity="Graphic154" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Take out the vertical exhaust bracket (1) using gloved hands.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360096.j"
+    entity="Graphic155" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Inspection</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Inspect all V-band clamps (1) for wear or damage.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360097.j"
+    entity="Graphic156" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Check all gaskets (1) for carbon leaks and cracks.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360098."
+    entity="Graphic157" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Ensure the bracket (1) threads and stay are not damaged or
+bent.</Para>
+<Para>Replace any worn or damaged fasteners.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360099.j"
+    entity="Graphic158" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Lubrication</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Apply anti-seize lubricant on all exhaust bolts and clamp
+threads before installation.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\AD."
+    entity="Graphic159" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Installation Procedure </Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para></Para>
+<Para>Position the vertical exhaust bracket (1) and insert the mounting
+bolt (2) and nut (3).</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360095.j"
+    entity="Graphic154" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Tighten the mounting bolt (1) and nut (2) using a 13 mm socket
+and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360100.j"
+    entity="Graphic160" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the vertical exhaust bracket bolt (1) and nut (2) between
+20 to 25 Nm using a torque wrench with a 13 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360100.j"
+    entity="Graphic160" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Place the center pipe exhaust (1) and install the V-band clamp
+(2) with gasket (3).</Para>
+<Para>Tighten the clamp (2) using a V-band clamp tool.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360101."
+    entity="Graphic161" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="-0.020in"
+    yoffset="-0.020in" position="below" align="acenter"
+    cropped="1" float="0" width="3.228in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the V-band clamp(1) between 5 to 7 Nm using a torque
+wrench.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360102.j"
+    entity="Graphic162" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Attach the exhaust bracket (1) to the vertical exhaust (2)
+using the bracket bolt (3) and nut (4).</Para>
+<Para>Tighten the bolt (3) using a 13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360103.j"
+    entity="Graphic163" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the exhaust bracket bolt (1) between 20 to 25 Nm using
+a torque wrench with a 13 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360104.j"
+    entity="Graphic164" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Place the bolt (1) and nut (2) along with washer (3) into
+the centre pipe exhaust clamp (4).</Para>
+<Para>Tighten the center pipe clamp mounting bolt (1) using a 17
+mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360105.j"
+    entity="Graphic165" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the center pipe clamp mounting bolt (1) between 22
+to 25 Nm using a torque wrench with a 17 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360106.j"
+    entity="Graphic166" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Position the vertical exhaust tail pipe (1) and insert the
+gasket (2). Install the V-band clamp (3) and tighten using a V-band
+clamp tool.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360107.j"
+    entity="Graphic167" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the V-band clamp (1) between 5 to 7 Nm using a torque
+wrench.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360108."
+    entity="Graphic168" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Install the tail pipe vertical mounting clamp (1) bolt (2)
+and nut(3). Tighten using a 13 mm socket and ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360089."
+    entity="Graphic148" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque the clamp bolt (1) between 8 to 11 Nm using a torque
+wrench with a 13 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360109."
+    entity="Graphic169" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Refit the vertical exhaust stay (1) and align it to its mounting
+points.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360088.j"
+    entity="Graphic147" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Install the upper and lower mounting bolts (1) and nuts (2)
+along with washers (3). Tighten the bolts using a 13 mm socket and
+ratchet.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360110.j"
+    entity="Graphic170" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Torque both bolts (1) between 20 to 25 Nm using a torque wrench
+with a 13 mm socket.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\21360111.j"
+    entity="Graphic171" impsize="3.268in 2.008in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.268in" height="2.008in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Alignment Check</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Ensure the tail pipe is aligned and not touching any other
+vehicle component.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\AD.j"
+    entity="Graphic159" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>All clamps must be seated correctly and tightened to prevent
+exhaust leakage.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\AD.j"
+    entity="Graphic159" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Verify clearance between the tail pipe and the bodywork.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\AD.j"
+    entity="Graphic159" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Final Testing</Title>
+<OrderedList InheritNum="ignore" continuation="restarts"><ListItem>
+<Para>Start the engine and check for any abnormal noise or leakage.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\AD.j"
+    entity="Graphic159" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Observe vibration or alignment issues visually.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\AD.j"
+    entity="Graphic159" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Perform a short idle and road test.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\AD.j"
+    entity="Graphic159" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem>
+<ListItem><Para></Para>
+<Para>Recheck torque settings if needed.</Para>
+<InformalFigure Value="0">
+<Graphic
+    entityref="Z:\VECV\SPINE\08 Pilot-work\02 Shop Manual\3019\From SME\Illustrations\5.13.1 Vertical Exhaust – Removal and Installation Procedure\AD.j"
+    entity="Graphic159" impsize="3.150in 1.969in" impby="ref"
+    sideways="0" impang="0.000" xoffset="0.000in"
+    yoffset="0.000in" position="below" align="acenter"
+    cropped="1" float="0" width="3.150in" height="1.969in"
+    angle="0.000" nsoffset="0.000in"/></InformalFigure></ListItem></OrderedList></Sect4>
+<Sect4><Title>Warranty Clause </Title>
+<Para>This activity falls under the following applicable warranties:</Para>
+<ItemizedList><ListItem><Para>Standard Vehicle Warranty</Para></ListItem>
+<ListItem><Para>Parts Warranty</Para></ListItem>
+<ListItem><Para>Labour Warranty</Para></ListItem>
+<ListItem><Para>Aggregate Warranty</Para></ListItem>
+<ListItem><Para>Consumables Warranty</Para></ListItem>
+<ListItem><Para>Extended / Driveline Warranty</Para></ListItem>
+<ListItem><Para>LCP Scheme (Labour, Consumables, Parts)</Para></ListItem>
+<ListItem><Para>AMC (Annual Maintenance Contract)</Para></ListItem>
+<ListItem><Para>Uptime / Eicher Promise</Para></ListItem>
+<ListItem><Para>Goodwill Warranty (if approved)</Para></ListItem></ItemizedList></Sect4></Sect3></Sect2></Sect1></Chapter>
