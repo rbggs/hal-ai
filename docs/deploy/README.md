@@ -26,15 +26,30 @@ Windows Server
     │   └── nomic-embed-text:latest (274 MB — embeddings)
     └── Python app
         ├── src/rag/ingest.py      (ingestion pipeline)
-        └── src/ui/app.py          (Chainlit UI → localhost:8000)
+        └── src/ui/app.py          (Chainlit UI → localhost:8080)
 ```
+
+## Quick Start
+
+After all services are installed:
+```bash
+bash scripts/start.sh
+```
+Checks each service, starts anything that's down. Safe to run repeatedly.
 
 ## Quick Health Check
 
 ```bash
 curl http://localhost:6333/healthz   # Qdrant
 curl http://localhost:11434/api/tags # Ollama
-curl http://localhost:8000           # UI
+curl http://localhost:8080           # UI
+```
+
+## Ingest Documents
+
+Drop PDFs or XMLs into `ingestions/`, then:
+```bash
+python3 src/rag/ingest.py
 ```
 
 ## Air-gap

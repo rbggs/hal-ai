@@ -31,7 +31,7 @@ tags: [deploy, install]
 | 6333 | Qdrant REST API | Internal only |
 | 6334 | Qdrant gRPC | Internal only |
 | 11434 | Ollama API | Internal only |
-| 8000 | Chainlit UI | Expose to users |
+| 8080 | Chainlit UI | Expose to users |
 | 8001 | FastAPI backend | Internal only |
 
 ## Disk Layout

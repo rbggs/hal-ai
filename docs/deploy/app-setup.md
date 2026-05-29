@@ -15,7 +15,7 @@ Assumes Qdrant and Ollama are running. See:
 
 **With internet:**
 ```bash
-git clone <repo-url> ~/hal-ai
+git clone git@github.com:rbggs/hal-ai.git ~/hal-ai
 cd ~/hal-ai
 ```
 
@@ -77,18 +77,19 @@ Done — 67 total chunks in 'hal_ai_docs'
 
 ---
 
-## 4. Start the UI
+## 4. Start All Services
 
 ```bash
-cd src/ui
-python3 -m chainlit run app.py --port 8000
+bash scripts/start.sh
 ```
 
-Open browser: `http://localhost:8000`
+Checks Ollama → Qdrant → Chainlit in order. Starts anything that's down, skips what's already running. Safe to re-run anytime.
+
+Open browser: `http://localhost:8080`
 
 For remote access (Windows host accessing WSL2):
 ```
-http://<windows-ip>:8000
+http://<windows-ip>:8080
 ```
 
 ---
@@ -106,7 +107,7 @@ curl http://localhost:11434/api/tags
 python3 -c "from qdrant_client import QdrantClient; c = QdrantClient(url='http://localhost:6333'); print('Points:', c.get_collection('hal_ai_docs').points_count)"
 
 # UI
-curl -s -o /dev/null -w "HTTP %{http_code}" http://localhost:8000
+curl -s -o /dev/null -w "HTTP %{http_code}" http://localhost:8080
 # → HTTP 200
 ```
 

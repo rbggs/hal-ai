@@ -20,11 +20,12 @@ All downloadable artifacts needed to stand up the HAL-AI stack on an air-gapped 
 | Artifact | File | Size (approx) |
 |----------|------|----------------|
 | Ollama macOS app | `installers/Ollama-darwin.dmg` | ~200 MB |
-| Ollama Windows installer | `installers/OllamaSetup.exe` | ~200 MB |
-| Docker image: ollama/ollama | `docker-images/ollama.tar.gz` | ~1.5 GB |
-| Docker image: qdrant/qdrant | `docker-images/qdrant.tar.gz` | ~100 MB |
-| Ollama model: llama3.2:3b | `ollama-models/llama3.2-3b.tar.gz` | ~2 GB |
-| Ollama model: nomic-embed-text | `ollama-models/nomic-embed-text.tar.gz` | ~300 MB |
+| Ollama Linux binary | `installers/ollama-linux-amd64` | ~50 MB |
+| Docker image: qdrant/qdrant | `docker-images/qdrant--qdrant.tar.gz` | ~100 MB |
+| Ollama model: gemma4:latest | `ollama-models/gemma4--latest.tar.gz` | ~9.6 GB |
+| Ollama model: nomic-embed-text | `ollama-models/nomic-embed-text--latest.tar.gz` | ~300 MB |
+
+Note: Ollama runs natively in WSL2 — no container image needed.
 
 ## Git Ignore
 

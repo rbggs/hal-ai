@@ -1,5 +1,6 @@
 
 # Beads / Dolt files (added by bd init)
+.beads/
 .dolt/
 *.db
 .beads-credential-key
@@ -15,6 +16,7 @@ chainlit.md
 
 # Claude Code
 .claude/
+CLAUDE.md
 
 # Agent runtime uploads
 src/ui/.files/

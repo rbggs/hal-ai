@@ -4,8 +4,8 @@ Ollama model blobs exported from `~/.ollama/models/`.
 
 | File | Model | Size |
 |------|-------|------|
-| `llama3.2-3b.tar.gz` | `llama3.2:3b` | ~2 GB |
-| `nomic-embed-text.tar.gz` | `nomic-embed-text:latest` | ~300 MB |
+| `gemma4--latest.tar.gz` | `gemma4:latest` | ~9.6 GB |
+| `nomic-embed-text--latest.tar.gz` | `nomic-embed-text:latest` | ~300 MB |
 
 ## How models are structured
 
@@ -18,8 +18,8 @@ The tarballs here capture both, preserving relative paths so they can be extract
 ## Restore
 
 ```bash
-tar -xzf llama3.2-3b.tar.gz -C ~/.ollama/
-tar -xzf nomic-embed-text.tar.gz -C ~/.ollama/
+tar -xzf gemma4--latest.tar.gz -C ~/.ollama/
+tar -xzf nomic-embed-text--latest.tar.gz -C ~/.ollama/
 # Verify:
 ollama list
 ```

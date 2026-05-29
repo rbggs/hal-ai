@@ -35,8 +35,8 @@ download_installers() {
     log "Downloading Ollama installers..."
     [[ -f "$dir/Ollama-darwin.dmg" ]] || \
         curl -L --progress-bar "https://ollama.com/download/Ollama-darwin.dmg" -o "$dir/Ollama-darwin.dmg"
-    [[ -f "$dir/OllamaSetup.exe" ]] || \
-        curl -L --progress-bar "https://ollama.com/download/OllamaSetup.exe" -o "$dir/OllamaSetup.exe"
+    [[ -f "$dir/ollama-linux-amd64" ]] || \
+        curl -L --progress-bar "https://ollama.com/download/ollama-linux-amd64" -o "$dir/ollama-linux-amd64"
     log "Installers done."
 }
 

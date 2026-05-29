@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Install HAL-AI stack from docs/src/ on an air-gapped Mac or Linux machine.
+# Install HAL-AI stack from docs/src/ on an air-gapped Mac or WSL2/Linux machine.
 # Run AFTER transferring docs/src/ to this machine.
-# Requires: Podman installed and machine running (Mac), or Podman installed (Linux)
+# Requires: Podman installed (both platforms). Mac also needs podman machine running.
 
 set -euo pipefail
 
@@ -37,7 +37,17 @@ install_ollama_mac() {
 }
 
 install_ollama_linux() {
-    die "Linux native install not automated. Restore Ollama models and run 'ollama serve' manually."
+    local binary="$BUNDLE_DIR/installers/ollama-linux-amd64"
+    [[ -f "$binary" ]] || die "Missing: $binary — run scripts/download.sh first"
+
+    if command -v ollama &>/dev/null; then
+        log "Ollama already installed, skipping."
+        return
+    fi
+
+    log "Installing Ollama binary..."
+    sudo install -m 755 "$binary" /usr/local/bin/ollama
+    log "Ollama installed at /usr/local/bin/ollama"
 }
 
 load_container_images() {
