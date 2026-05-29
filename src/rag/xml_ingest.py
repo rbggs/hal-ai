@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """XML ingestion: structured DocBook/FrameMaker XML → Qdrant.
 
 Chunking: one chunk per Sect4 (the most granular titled unit).

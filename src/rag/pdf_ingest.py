@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """PDF ingestion: section-based chunking + image extraction → Qdrant.
 
 Heading detection uses pdfplumber font sizes:

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Ingest all documents in ingestions/ into Qdrant.
 
 Routing by extension:
