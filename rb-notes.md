@@ -46,3 +46,30 @@ docker.io/qdrant/qdrant:latest
 # testing questions
 
 
+
+
+# Advance testing 
+ ---
+  Quick connectivity check (just verify both are running):
+  curl http://localhost:11434/api/tags        # Ollama
+  curl http://localhost:6333/healthz          # Qdrant
+
+  ---
+  End-to-end RAG test (embedding + retrieval + generation):
+  python src/rag/query.py "your question here"
+  This tests the full pipeline — Ollama embeddings → Qdrant retrieval → Ollama LLM answer.
+
+  ---
+  Start all services + health checks in one shot:
+  bash scripts/start.sh
+  Starts Ollama, Qdrant, and Chainlit, with built-in waits until each is healthy.
+
+  ---
+  Reset Qdrant collection (if you want a clean slate):
+  python scripts/qdrant_reset.py
+
+  The most useful for a quick sanity check is python src/rag/query.py "test question" — it exercises both services end to end
+
+
+
+
