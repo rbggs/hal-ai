@@ -7,7 +7,7 @@ from qdrant_client import QdrantClient
 QDRANT_URL  = "http://localhost:6333"
 COLLECTION  = "hal_ai_docs"
 EMBED_MODEL = "nomic-embed-text:latest"
-LLM_MODEL   = "gemma4:latest"
+LLM_MODEL   = "mistral:7b"
 TOP_K       = 3
 
 

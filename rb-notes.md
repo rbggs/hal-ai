@@ -73,3 +73,53 @@ docker.io/qdrant/qdrant:latest
 
 
 
+-  pip install ollama qdrant-client pdfplumber
+
+
+ python3 -m venv .venv
+  source .venv/bin/activate
+  pip install -r src/rag/requirements.txt -r src/ui/requirements.txt
+
+
+--  pip install -r src/rag/requirements.txt -r src/ui/requirements.txt
+
+Ingest everything in the ingestions/ folder:
+  src/rag/ingest.py
+
+  Ingest a specific PDF:
+  src/rag/ingest.py ingestions/your-file.pdf
+
+  Ingest a specific XML:
+  src/rag/ingest.py ingestions/your-file.xml
+
+  Reset Qdrant collection (wipe clean before re-ingesting):
+  scripts/qdrant_reset.py
+  src/rag/ingest.py
+
+
+
+
+# Questions for testing : 
+ Catalytic Converter:
+  1. What tools are required to remove the catalytic converter?
+  2. What is the torque specification for the mounting bolt on the catalytic converter?
+  3. Why do two or more people need to be present during catalytic converter removal?
+  4. What is the part number for the catalytic converter?
+  5. What should you inspect on the gasket after removing the catalytic converter?
+  6. What lubricant should be applied to the U-bolt threads before installation?
+
+  EATS ACM Harness:
+  7. How long does the EATS ACM harness removal and installation take?
+  8. What tool is used to loosen the urea dust cover wing nut?
+  9. What is the part number for the ACM harness?
+  10. What pre-removal steps must be done before handling the urea tank components?
+
+
+
+
+testing : 
+- src/tests/query_test.py "tell me a joke"
+
+
+
+
