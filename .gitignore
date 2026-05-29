@@ -23,3 +23,6 @@ src/ui/.files/
 
 # macOS
 .DS_Store
+
+# Runtime logs
+logs/
