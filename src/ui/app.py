@@ -124,12 +124,17 @@ def retrieve_multi(question: str) -> tuple[list[dict], list[dict]]:
     return all_chunks, top_chunks
 
 
-def build_prompt(question: str, chunks: list[dict]) -> str:
+def build_prompt(question: str, chunks: list[dict], history: list[tuple[str, str]] | None = None) -> str:
     context = "\n\n".join(
         f"[{c.get('source', '')} — {c.get('section', '')} / {c.get('subsection', '')}  p{c.get('page_start','')}]\n{c['text']}"
         for c in chunks
     )
-    return f"{SYSTEM_PROMPT}\n\nContext:\n{context}\n\nQuestion: {question}\nAnswer:"
+    history_text = ""
+    if history:
+        turns = "\n".join(f"User: {q}\nAssistant: {a}" for q, a in history[-5:])
+        history_text = f"\n\nConversation so far:\n{turns}\n"
+
+    return f"{SYSTEM_PROMPT}{history_text}\n\nContext:\n{context}\n\nQuestion: {question}\nAnswer:"
 
 
 def collect_figures(chunks: list[dict], max_images: int = MAX_IMAGES) -> list[str]:
@@ -153,6 +158,7 @@ async def on_chat_start():
 @cl.on_message
 async def on_message(message: cl.Message):
     question = message.content
+    history  = cl.user_session.get("history", [])
 
     all_chunks, top_chunks = await cl.make_async(retrieve_multi)(question)
 
@@ -182,13 +188,19 @@ async def on_message(message: cl.Message):
     response = cl.Message(content="", elements=source_elements + image_elements)
     await response.send()
 
-    prompt = build_prompt(question, all_chunks)
+    prompt = build_prompt(question, all_chunks, history)
     stream = await cl.make_async(ollama.generate)(
         model  = LLM_MODEL,
         prompt = prompt,
         stream = True,
     )
+    answer_text = ""
     for chunk in stream:
-        await response.stream_token(chunk["response"])
+        token = chunk["response"]
+        answer_text += token
+        await response.stream_token(token)
 
     await response.update()
+
+    history.append((question, answer_text))
+    cl.user_session.set("history", history)
