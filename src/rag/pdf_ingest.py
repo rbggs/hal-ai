@@ -26,6 +26,7 @@ PROJECT_ROOT  = Path(__file__).resolve().parent.parent.parent
 EMBED_MODEL   = "nomic-embed-text:latest"
 SECTION_FONT    = 14.0   # font size >= this → major section heading
 HEADING_FONT    = 11.0   # font size >= this → minor heading / subsection
+MAX_HEADING_WORDS = 10   # lines longer than this are body text regardless of font size
 MIN_IMG_AREA    = 5000   # px² — below this = icon/decorative, skip
 Y_TOLERANCE     = 3.0    # px — words within this y-band are on the same row
 MAX_EMBED_CHARS = 7000   # nomic-embed-text context = 2048 tokens (~8192 chars); leave buffer
@@ -201,14 +202,15 @@ def extract_chunks(pdf_path: Path, page_figures: dict[int, list[str]]) -> list[C
                 if not clean:
                     continue
 
-                if font >= SECTION_FONT and _is_valid_heading(clean):
+                word_count = len(clean.split())
+                if font >= SECTION_FONT and _is_valid_heading(clean) and word_count <= MAX_HEADING_WORDS:
                     flush(pg)
                     section    = clean
                     subsection = clean
                     page_start = pg
                     page_end   = pg
 
-                elif font >= HEADING_FONT and _is_valid_heading(clean):
+                elif font >= HEADING_FONT and _is_valid_heading(clean) and word_count <= MAX_HEADING_WORDS:
                     flush(pg)
                     subsection = clean
                     page_start = pg
@@ -283,9 +285,12 @@ def upsert_chunks(client: QdrantClient, collection: str, chunks: list[Chunk],
                 "figures":    chunk.figures,
             },
         ))
-    client.upsert(collection_name=collection, points=points)
     if skipped:
         print(f"  Skipped {skipped} stub chunks (< {_MIN_CHUNK_CHARS} chars)")
+    if not points:
+        print("  No points to upsert — all chunks filtered out")
+        return 0
+    client.upsert(collection_name=collection, points=points)
     return len(points)
 
 
