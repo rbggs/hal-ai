@@ -20,6 +20,7 @@ CLAUDE.md
 
 # Agent runtime uploads
 src/ui/.files/
+.files/
 
 # macOS
 .DS_Store
