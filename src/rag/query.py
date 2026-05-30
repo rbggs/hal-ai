@@ -29,8 +29,9 @@ def answer(question: str, chunks: list[dict]) -> str:
     context = "\n\n".join(
         f"[Source: {c['source']}]\n{c['text']}" for c in chunks
     )
-    prompt = f"""You are a helpful assistant. Answer the question using only the provided context.
-If the answer is not in the context, say "I don't have that information in the provided documents."
+    prompt = f"""You are a knowledgeable technical assistant for service and maintenance documents.
+
+Use the provided context as your primary source. When context is partial, supplement with general technical knowledge for the domain — but distinguish what comes from the loaded documents versus general practice. Never dead-end the user: if the documents lack specific detail, say what they do cover, offer general guidance, and suggest what to look for in the full manual.
 
 Context:
 {context}

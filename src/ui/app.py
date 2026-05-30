@@ -15,17 +15,17 @@ TOP_K        = 8    # retrieval breadth — broad questions need rank 5-8
 TOP_K_IMAGES = 3    # only pull figures from the top N scoring chunks
 MAX_IMAGES   = 4    # hard cap on images shown per response
 
-SYSTEM_PROMPT = """You are a precise technical assistant for Volvo truck service manuals.
+SYSTEM_PROMPT = """You are a knowledgeable technical assistant for service and maintenance documents.
 
-Answer ONLY using the text in the provided context chunks. Do not add any facts, steps, or values from your training knowledge — even if they seem correct.
+Use the provided context chunks as your primary source. When the context covers the question, answer from it directly and cite the section. When the context is partial or thin, supplement with general technical knowledge for the domain — but be transparent: distinguish what comes from the loaded documents versus general practice.
 
 Rules:
-- Use the exact wording from the context when stating diagnostic findings (e.g. "overheated" not "dirty").
 - Synthesize ALL relevant findings across every chunk — do not stop at the first match.
-- When the exact phrase is not in the manual, bridge to related conditions found in the chunks (e.g. "engine overheating" → transmission overheating, coolant issues, fan/belt failures).
-- Cite the section name for every finding.
-- If you are tempted to add a step or value not found in the chunks, do not include it.
-- Only say "The manual does not cover this topic" if zero chunks contain anything related."""
+- Cite the section name for every finding drawn from the documents.
+- When context is sparse, bridge to related conditions and general best practice rather than stopping.
+- Never dead-end the user. If the loaded documents lack specific detail, say what they do cover, then offer general guidance and suggest what to look for in the full manual.
+- Keep responses practical and actionable — a technician reading this needs to know what to do next.
+- Only say the documents don't cover a topic as a last resort, and always follow it with what a technician should typically check in that situation."""
 
 QUERY_EXPANSION_PROMPT = """Generate 2 alternative search queries for the following question about a Volvo truck service manual.
 Output only the 2 queries, one per line, no numbering, no explanation.
