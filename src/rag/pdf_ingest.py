@@ -52,7 +52,10 @@ def _source_slug(pdf_path: Path) -> str:
 
 
 def extract_images(pdf_path: Path) -> dict[int, list[str]]:
-    """Extract raster images from all pages, save to data/figures/{slug}/.
+    """Extract images from all pages, save to data/figures/{slug}/.
+
+    Raster images are extracted individually. Pages with no raster images but
+    with vector graphics (curves/rects/lines) are rendered as a full-page PNG.
 
     Returns {page_number: [relative_path, ...]} for pages that have images.
     Page numbers are 1-based (matching pdfplumber convention).
@@ -69,11 +72,9 @@ def extract_images(pdf_path: Path) -> dict[int, list[str]]:
             pw, ph = page.width, page.height
             for idx, img in enumerate(page.images, start=1):
                 w, h = img["width"], img["height"]
-                # Skip icons, banners, and decoratives
                 if w * h < MIN_IMG_AREA or min(w, h) < 35:
                     continue
                 try:
-                    # Clamp to page bounds (some PDFs have slightly out-of-bounds coords)
                     x0  = max(0, img["x0"])
                     top = max(0, img["top"])
                     x1  = min(pw, img["x1"])
@@ -86,6 +87,17 @@ def extract_images(pdf_path: Path) -> dict[int, list[str]]:
                     paths.append(str(abs_path.relative_to(PROJECT_ROOT)))
                 except Exception as exc:
                     print(f"  [warn] p{page.page_number} img{idx}: {exc}")
+
+            # No raster images — fall back to full-page render if vector graphics present
+            if not paths and (page.curves or page.rects or page.lines):
+                try:
+                    filename = f"page{page.page_number}.png"
+                    abs_path = out_dir / filename
+                    page.to_image(resolution=150).original.save(abs_path, format="PNG", optimize=True)
+                    paths.append(str(abs_path.relative_to(PROJECT_ROOT)))
+                except Exception as exc:
+                    print(f"  [warn] p{page.page_number} vector render: {exc}")
+
             if paths:
                 page_figures[page.page_number] = paths
 
